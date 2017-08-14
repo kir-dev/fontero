@@ -16,10 +16,14 @@
 
         <canvas id="playcanvas" width="960" height="480">
         </canvas>
-        <input type="text" id="code" onfocusout="parse()">
+        <p>Player.walk();</p>
+        <textarea id="code"></textarea>
+        <button onclick="parse($('#code').val())">RUN</button>
 
     </div>
 
+    <script>
+    </script>
     <script src="control/main.js"></script>
 
 </body>

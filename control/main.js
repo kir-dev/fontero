@@ -1,7 +1,12 @@
 
+function parse(str) {
+    eval(str);
+    Display.draw();
+}
 
 $(function () {
     loadMap(1);
+
     function loadMap(level) {
         $.when(
             $.get("assets/levels/level" + level + ".txt")

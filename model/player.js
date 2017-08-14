@@ -31,11 +31,11 @@ var Player = (function() {
     };
 
     module.walk = function () {
-        switch(direction){
-            case "UP": y++;break;
-            case "DOWN": y--;break;
-            case "LEFT": x--;break;
-            case "RIGHT": x++; break;
+        switch(this.direction){
+            case "UP": this.y++; break;
+            case "DOWN": this.y--; break;
+            case "LEFT": this.x--; break;
+            case "RIGHT": this.x++; break;
             default: break;
         }
 

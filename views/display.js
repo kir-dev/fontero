@@ -22,8 +22,6 @@ var Display = (function () {
         }*/
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
         context.drawImage(imageCache.player, translateImage(Player.x), translateImage(Player.y), 164, 226);
-        console.log(Player.x);
-
 
     };
 
