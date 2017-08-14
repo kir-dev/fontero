@@ -1,5 +1,3 @@
-var Player = require('../model/player.js');
-var Map = require('../model/map.js');
 
 
 function parse() {
