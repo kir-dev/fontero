@@ -8,12 +8,19 @@
     <script src="model/enemy.js"></script>
     <script src="model/map.js"></script>
     <script src="views/display.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-<script src="control/main.js"></script>
-    <canvas id="playcanvas" width="640" height="640">
 
-    </canvas>
-    <input type="text" id="code" onfocusout="parse()">
+    <div class="container">
+
+        <canvas id="playcanvas" width="960" height="480">
+        </canvas>
+        <input type="text" id="code" onfocusout="parse()">
+
+    </div>
+
+    <script src="control/main.js"></script>
+
 </body>
 </html>
