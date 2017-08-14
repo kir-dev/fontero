@@ -21,9 +21,8 @@ var Display = (function () {
             }
         }*/
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
-
-
-
+        context.drawImage(imageCache.player, translateImage(Player.x), translateImage(Player.y), 164, 226);
+        console.log(Player.x);
 
 
     };
@@ -41,7 +40,7 @@ var Display = (function () {
     }
 
     cacheImage('crate', 'mummy_crate');
-    cacheImage('w', 'mummy_character');
+    cacheImage('player', 'mummy_character');
     cacheImage('e', 'mummy_enemy');
     cacheImage('r', 'mummy_coin');
     cacheImage('bg', 'mummy_bg');
