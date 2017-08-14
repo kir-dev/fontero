@@ -6,6 +6,23 @@ body{
     width: 960px;
 }
 #code{
-    width: 100%;
-    height: 128px
+    color: wheat;
+    background: #4d462b;
+    width: 90%;
+    height: 128px;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #dfd2a4;
+}
+.btn{
+    margin: 10px auto;
+    display: block;
+    padding: 14px;
+    width: 220px;
+    background: white;
+    border: none;
+}
+.help{
+    text-align: center;
 }
