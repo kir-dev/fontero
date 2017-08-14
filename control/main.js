@@ -1,7 +1,7 @@
 
 function parse(str) {
     eval(str);
-    Display.draw();
+    Display.draw(Map.map);
 }
 
 $(function () {
@@ -13,6 +13,7 @@ $(function () {
         ).then(function (response) {
             Player.constructor();
             Display.setPlayer = Player;
+            Display.setCoins = Coins;
             Map.parseLevel(response);
             Display.draw(Map.map);
         });
