@@ -4,17 +4,13 @@
     <title></title>
     <meta charset="utf-8">
     <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="parser.js"></script>
     <script src="model/player.js"></script>
+    <script src="model/enemy.js"></script>
+    <script src="model/map.js"></script>
     <script src="views/display.js"></script>
 </head>
 <body>
-<script>
-    $(document).ready(function(){
-        Display.setPlayer(Player);
-        Display.draw();
-    });
-</script>
+<script src="control/main.js"></script>
     <canvas id="playcanvas" width="640" height="640">
 
     </canvas>
