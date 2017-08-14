@@ -20,17 +20,8 @@ var Display = (function () {
 
             }
         }*/
-        console.log("should draw");
+        context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
 
-        var imageObject = new Image();
-        imageObject.src = 'assets/images/mummy_crate.svg';
-        imageObject.height = "20px";
-        imageObject.width = "20px";
-
-        imageObject.onload = function () {
-            context.drawImage(imageObject, 0, 0, 20, 20);
-
-        };
 
 
 
@@ -49,11 +40,11 @@ var Display = (function () {
         };
     }
 
-    cacheImage('#', 'mummy_crate');
+    cacheImage('crate', 'mummy_crate');
     cacheImage('w', 'mummy_character');
     cacheImage('e', 'mummy_enemy');
     cacheImage('r', 'mummy_coin');
-    cacheImage(' ', 'mummy_bg');
+    cacheImage('bg', 'mummy_bg');
 
     return module;
 })();
