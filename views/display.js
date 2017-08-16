@@ -18,49 +18,52 @@ var Display = (function() {
 
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
 
+        context.fillStyle = 'red';
+        context.font = '30px Arial';
+        context.fillText('Health:' + Player.health, 10, 50);
+
 
         map.forEach(function(element) {
             var img = new Image();
             switch (element.name) {
                 case 'p':
-                    img = imageCache.player;
+                    context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(4), 156, 226);
                     break;
                 case 'r':
-                    img = imageCache.ruby;
+                    context.drawImage(imageCache.ruby, translateImage(element.getX()), translateImage(5), 113, 113);
                     break;
                 case 'e':
-                    img = imageCache.enemy;
+                    context.drawImage(imageCache.enemy, translateImage(element.getX()), translateImage(5), 156, 150);
                     break;
                 default:
                     break;
             }
-            context.drawImage(img, translateImage(element.getX()), translateImage(4), 156, 226);
         });
 
     };
 
-    /* function animate(myRectangle, canvas, context, startTime) {
-         // update
-         var time = (new Date()).getTime() - startTime;
+   /* function animate(myRectangle, canvas, context, startTime) {
+        // update
+        var time = (new Date()).getTime() - startTime;
 
-         var linearSpeed = 100;
-         // pixels / second
-         var newX = linearSpeed * time / 1000;
+        var linearSpeed = 100;
+        // pixels / second
+        var newX = linearSpeed * time / 1000;
 
-         if(newX < canvas.width - myRectangle.width - myRectangle.borderWidth / 2) {
-             myRectangle.x = newX;
-         }
+        if(newX < canvas.width - myRectangle.width - myRectangle.borderWidth / 2) {
+            myRectangle.x = newX;
+        }
 
-         // clear
-         context.clearRect(0, 0, canvas.width, canvas.height);
+        // clear
+        context.clearRect(0, 0, canvas.width, canvas.height);
 
-         drawRectangle(myRectangle, context);
+        drawRectangle(myRectangle, context);
 
-         // request new frame
-         requestAnimFrame(function() {
-             animate(myRectangle, canvas, context, startTime);
-         });
-     }*/
+        // request new frame
+        requestAnimFrame(function() {
+            animate(myRectangle, canvas, context, startTime);
+        });
+    }*/
 
 
     function translateImage(coord) {
