@@ -10,6 +10,10 @@ var Ruby = (function() {
         this.y = y;
     };
 
+    module.getX = function () {
+        return this.x;
+    }
+
     module.name = 'r';
     return module;
 });

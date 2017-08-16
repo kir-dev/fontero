@@ -19,7 +19,7 @@ var Map = (function() {
 
       switch (char){
           case 'p':
-            Player.constructor();
+            Player.constructor(0,4,"RIGHT", 100);
             map.push(Player);
             break;
           case 'r':

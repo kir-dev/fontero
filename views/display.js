@@ -20,21 +20,19 @@ var Display = (function () {
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
 
 
-        map.forEach(function (element, index) {
+        map.forEach(function (element) {
             var img = new Image();
             switch (element.name){
                 case 'p':
                     img = imageCache.player;
-                    console.log(index);
                     break;
                 case 'r':
-                    console.log(index);
                     img = imageCache.ruby;
                     break;
                 default:
                     break;
             }
-            context.drawImage(img, translateImage(index), translateImage(4), 156, 226);
+            context.drawImage(img, translateImage(element.getX()), translateImage(4), 156, 226);
         });
 
     };

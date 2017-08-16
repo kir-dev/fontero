@@ -9,20 +9,18 @@ var Player = (function() {
 
     module.name = 'p';
 
-    module.constructor = function () {
-        this.x = 0;
-        this.y = 4;
-        this.direction = "RIGHT";
-        this.health = 100;
-    };
-
-    module.setX = function (x) {
+    module.constructor = function (x, y, direction, health) {
         this.x = x;
+        this.y = y;
+        this.direction = direction;
+        this.health = health;
     };
 
-    module.setY = function (y) {
-        this.y = y;
-    };
+
+    module.getX = function () {
+        return this.x;
+    }
+
 
     module.setDir = function (dir) {
         this.direction = dir;
