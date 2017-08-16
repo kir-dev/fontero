@@ -23,9 +23,15 @@ var Map = (function() {
             map.push(Player);
             break;
           case 'r':
+              console.log('Should add a ruby');
+              console.log(index);
               var coin = Ruby();
               coin.init(index, 0);
               map.push(coin);
+              break;
+          case 's':
+              console.log("Should add space = coin");
+              break;
           default: break;
       }
     }

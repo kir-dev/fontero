@@ -25,8 +25,10 @@ var Display = (function () {
             switch (element.name){
                 case 'p':
                     img = imageCache.player;
+                    console.log(index);
                     break;
                 case 'r':
+                    console.log(index);
                     img = imageCache.ruby;
                     break;
                 default:
