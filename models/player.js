@@ -51,7 +51,7 @@ var Player = (function() {
     };
 
     module.checkNextField = function(map) {
-        var returnValue = 'empty field'
+        var returnValue = 'empty field';
         map.forEach(function(element) {
             if (element.x === Player.getX() + 1) {
                 returnValue = element.name;
@@ -64,7 +64,7 @@ var Player = (function() {
     module.feel = function() {
         var returnValue = false;
         Map.map.forEach(function(element) {
-            if (element.x === Player.getX() + 1) {
+            if (element.name === 'e' && element.x === Player.getX() + 1) {
                 returnValue = element.name;
             }
         });
@@ -73,5 +73,6 @@ var Player = (function() {
     module.attack = function() {
 
     };
+
     return module;
 })();

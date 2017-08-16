@@ -1,4 +1,4 @@
-var Display = (function () {
+var Display = (function() {
 
     var module = {};
     var imageCache = {};
@@ -6,11 +6,11 @@ var Display = (function () {
 
 
 
-    module.setPlayer = function (message) {
+    module.setPlayer = function(message) {
         player = message;
     };
 
-    module.draw = function (map) {
+    module.draw = function(map) {
         var canvas = document.getElementById('playcanvas');
         var context = canvas.getContext('2d');
 
@@ -19,14 +19,17 @@ var Display = (function () {
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
 
 
-        map.forEach(function (element) {
+        map.forEach(function(element) {
             var img = new Image();
-            switch (element.name){
+            switch (element.name) {
                 case 'p':
                     img = imageCache.player;
                     break;
                 case 'r':
                     img = imageCache.ruby;
+                    break;
+                case 'e':
+                    img = imageCache.enemy;
                     break;
                 default:
                     break;
@@ -36,28 +39,28 @@ var Display = (function () {
 
     };
 
-   /* function animate(myRectangle, canvas, context, startTime) {
-        // update
-        var time = (new Date()).getTime() - startTime;
+    /* function animate(myRectangle, canvas, context, startTime) {
+         // update
+         var time = (new Date()).getTime() - startTime;
 
-        var linearSpeed = 100;
-        // pixels / second
-        var newX = linearSpeed * time / 1000;
+         var linearSpeed = 100;
+         // pixels / second
+         var newX = linearSpeed * time / 1000;
 
-        if(newX < canvas.width - myRectangle.width - myRectangle.borderWidth / 2) {
-            myRectangle.x = newX;
-        }
+         if(newX < canvas.width - myRectangle.width - myRectangle.borderWidth / 2) {
+             myRectangle.x = newX;
+         }
 
-        // clear
-        context.clearRect(0, 0, canvas.width, canvas.height);
+         // clear
+         context.clearRect(0, 0, canvas.width, canvas.height);
 
-        drawRectangle(myRectangle, context);
+         drawRectangle(myRectangle, context);
 
-        // request new frame
-        requestAnimFrame(function() {
-            animate(myRectangle, canvas, context, startTime);
-        });
-    }*/
+         // request new frame
+         requestAnimFrame(function() {
+             animate(myRectangle, canvas, context, startTime);
+         });
+     }*/
 
 
     function translateImage(coord) {
@@ -67,17 +70,16 @@ var Display = (function () {
     function cacheImage(name, longName) {
         var imageObj = new Image();
         imageObj.src = 'assets/images/' + longName + '.svg';
-        imageObj.onload = function () {
+        imageObj.onload = function() {
             imageCache[name] = imageObj;
         };
     }
 
     cacheImage('crate', 'mummy_crate');
     cacheImage('player', 'mummy_character');
-    cacheImage('e', 'mummy_enemy');
+    cacheImage('enemy', 'mummy_enemy');
     cacheImage('ruby', 'mummy_coin');
     cacheImage('bg', 'mummy_bg');
 
     return module;
 })();
-

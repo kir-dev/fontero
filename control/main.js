@@ -10,9 +10,10 @@ function parse(str) {
 
         switch (Player.checkNextField(Map.map)) {
             case 'r':
-                clearInterval(loop);
+                //clearInterval(loop);
                 break;
             case 'e':
+                console.log("yo");
                 clearInterval(loop);
                 break;
             default:
