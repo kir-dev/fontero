@@ -9,7 +9,7 @@ var Player = (function() {
 
     module.name = 'p';
 
-    module.constructor = function (x, y, direction, health) {
+    module.constructor = function(x, y, direction, health) {
         this.x = x;
         this.y = y;
         this.direction = direction;
@@ -17,32 +17,60 @@ var Player = (function() {
     };
 
 
-    module.getX = function () {
+    module.getX = function() {
         return this.x;
     }
 
 
-    module.setDir = function (dir) {
+    module.setDir = function(dir) {
         this.direction = dir;
     };
 
-    module.setHealth = function (health) {
+    module.setHealth = function(health) {
         this.health = health;
     };
 
-    module.walk = function () {
-        switch(this.direction){
-            case "UP": this.y++; break;
-            case "DOWN": this.y--; break;
-            case "LEFT": this.x--; break;
-            case "RIGHT": this.x++; break;
-            default: break;
+    module.walk = function() {
+        switch (this.direction) {
+            case "UP":
+                this.y++;
+                break;
+            case "DOWN":
+                this.y--;
+                break;
+            case "LEFT":
+                this.x--;
+                break;
+            case "RIGHT":
+                this.x++;
+                break;
+            default:
+                break;
         }
 
     };
 
+    module.checkNextField = function(map) {
+        var returnValue = 'empty field'
+        map.forEach(function(element) {
+            if (element.x === Player.getX() + 1) {
+                returnValue = element.name;
+            }
+        });
 
-    module.attack = function () {
+        return returnValue;
+    };
+
+    module.feel = function() {
+        var returnValue = false;
+        Map.map.forEach(function(element) {
+            if (element.x === Player.getX() + 1) {
+                returnValue = element.name;
+            }
+        });
+    }
+
+    module.attack = function() {
 
     };
     return module;
