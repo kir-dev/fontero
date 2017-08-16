@@ -41,9 +41,6 @@ var Player = (function() {
 
     };
 
-    module.setDirection = function (dir) {
-        direction = dir;
-    };
 
     module.attack = function () {
 

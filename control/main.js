@@ -1,9 +1,27 @@
 
 function parse(str) {
-    eval(str);
-    Display.draw(Map.map);
+
+    var i = 0;
+
+    var loop = setInterval(function () {
+
+        i++;
+
+        console.log("ROUND " + i + " ------------------");
+
+        eval(str);
+
+        Display.draw(Map.map);
+
+        if(i>25){ clearInterval(loop);}
+
+    }, 500);
+
 }
 
+function check() {
+
+}
 
 $(function () {
     loadMap(1);

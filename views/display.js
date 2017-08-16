@@ -3,13 +3,12 @@ var Display = (function () {
     var module = {};
     var imageCache = {};
     var player = {};
-    var Coins = [];
+
+
 
     module.setPlayer = function (message) {
         player = message;
     };
-
-
 
     module.draw = function (map) {
         var canvas = document.getElementById('playcanvas');
@@ -36,6 +35,30 @@ var Display = (function () {
         });
 
     };
+
+   /* function animate(myRectangle, canvas, context, startTime) {
+        // update
+        var time = (new Date()).getTime() - startTime;
+
+        var linearSpeed = 100;
+        // pixels / second
+        var newX = linearSpeed * time / 1000;
+
+        if(newX < canvas.width - myRectangle.width - myRectangle.borderWidth / 2) {
+            myRectangle.x = newX;
+        }
+
+        // clear
+        context.clearRect(0, 0, canvas.width, canvas.height);
+
+        drawRectangle(myRectangle, context);
+
+        // request new frame
+        requestAnimFrame(function() {
+            animate(myRectangle, canvas, context, startTime);
+        });
+    }*/
+
 
     function translateImage(coord) {
         return (coord + 0.5) * 64 - 32;

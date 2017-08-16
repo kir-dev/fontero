@@ -6,6 +6,8 @@ var Enemy = (function() {
     var direction;
     var health;
 
+    module.name = 'e';
+
     module.setDirection = function (dir) {
         this.direction = dir;
     };
