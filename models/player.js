@@ -7,11 +7,13 @@ var Player = (function() {
     var direction;
     var health;
 
+    module.name = 'p';
+
     module.constructor = function () {
         this.x = 0;
         this.y = 4;
         this.direction = "RIGHT";
-        this.healt = 100;
+        this.health = 100;
     };
 
     module.setX = function (x) {

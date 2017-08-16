@@ -23,16 +23,9 @@ var Map = (function() {
             map.push(Player);
             break;
           case 'r':
-            Coins.coins.push({
-                x: index,
-                y: 4
-            });
-            break;
-          case 'e':
-            Coins.coins.push({
-                x: index,
-                y: 4
-            });
+              var coin = Ruby();
+              coin.init(index, 0);
+              map.push(coin);
           default: break;
       }
     }

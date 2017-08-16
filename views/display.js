@@ -2,15 +2,13 @@ var Display = (function () {
 
     var module = {};
     var imageCache = {};
-    var player = [];
+    var player = {};
     var Coins = [];
 
     module.setPlayer = function (message) {
         player = message;
     };
-    module.setCoins = function (message) {
-        Coins = message;
-    };
+
 
 
     module.draw = function (map) {
@@ -20,17 +18,19 @@ var Display = (function () {
         context.clearRect(0, 0, canvas.width, canvas.height);
 
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
-        Coins.getCoins().forEach(function (element, index) {
-            context.drawImage(imageCache.ruby, translateImage(element[index].x), translateImage(element[index].y), 156, 226);
-        });
+
 
         map.forEach(function (element, index) {
             var img = new Image();
-            switch (element){
+            switch (element.name){
                 case 'p':
                     img = imageCache.player;
                     break;
-                default: break;
+                case 'r':
+                    img = imageCache.ruby;
+                    break;
+                default:
+                    break;
             }
             context.drawImage(img, translateImage(index), translateImage(4), 156, 226);
         });
