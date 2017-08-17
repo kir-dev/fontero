@@ -18,7 +18,7 @@ function parse(str) {
         switch (element.name) {
             case 'r':
                 Player.canMove = true;
-                var audio = new Audio('assets/sounds/coin.mp3');
+                var audio = new Audio('assets/sounds/coin.aac');
                 audio.play();
                 break;
             case 'e':

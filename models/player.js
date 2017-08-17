@@ -92,6 +92,9 @@ var Player = (function() {
     // else{Player.walk()}
 
     module.attack = function() {
+
+        var audio = new Audio('assets/sounds/sword.aac');
+        audio.play();
         var coord = this.x;
         switch (this.direction) {
             case "LEFT":
