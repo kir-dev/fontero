@@ -32,7 +32,8 @@ var Map = (function() {
                 case 'e':
 
                     var enemy = Enemy();
-                    enemy.init(index, 0);
+                    enemy.init(index, 0, "LEFT");
+                    enemy.setHealth(100);
                     map.push(enemy);
                     break;
                 case 's':
@@ -42,6 +43,19 @@ var Map = (function() {
             }
         }
     };
+
+    module.attack = function (coord, dmg) {
+        console.log(coord + ' ' + dmg);
+        map.forEach(function(element, index) {
+            if (element.x === coord) {
+                element.health -= dmg;
+                console.log(element.name + element.health);
+                if(element.health <=0){
+                    map.splice(index,1);
+                }
+            }
+        });
+    }
 
     module.map = map;
     return module;

@@ -14,17 +14,20 @@ function parse(str) {
 
 
         check();
-
-        switch (Player.checkNextField(Map.map)) {
+         var element = Player.checkNextField(Map.map);
+        switch (element.name) {
             case 'r':
+                Player.canMove = true;
                 var audio = new Audio('assets/sounds/coin.mp3');
                 audio.play();
                 break;
             case 'e':
                 console.log("yo");
                 Player.canMove = false;
+                element.attack();
                 break;
             default:
+                Player.canMove = true;
                 break;
         }
 
@@ -71,7 +74,7 @@ function loadMap(level) {
 };
 
 $(function () {
-   level = 1;
+   level = 2;
     loadMap(level);
 });
 

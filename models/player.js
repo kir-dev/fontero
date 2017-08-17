@@ -59,7 +59,7 @@ var Player = (function() {
         var returnValue = 'empty field';
         map.forEach(function(element) {
             if (element.x === Player.getX() + 1) {
-                returnValue = element.name;
+                returnValue = element;
             }
         });
 
@@ -70,10 +70,14 @@ var Player = (function() {
         var returnValue = false;
         Map.map.forEach(function(element) {
             if (element.name === 'e' && element.x === Player.getX() + 1) {
-                returnValue = element.name;
+                returnValue = true;
             }
         });
+        return returnValue;
     };
+
+   // if(Player.feel()){Player.attack()}
+    // else{Player.walk()}
 
     module.attack = function() {
         var coord = this.x;
@@ -87,7 +91,7 @@ var Player = (function() {
             default:
                 break;
         }
-        Map.map.attack(coord, 25);
+        Map.attack(coord, 25);
     };
 
     return module;

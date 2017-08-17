@@ -8,9 +8,10 @@ var Enemy = (function() {
 
     module.name = 'e';
 
-    module.init = function(x, y) {
+    module.init = function(x, y, dir) {
         this.x = x;
         this.y = y;
+        this.direction = dir;
     };
 
     module.getX = function() {
@@ -37,7 +38,7 @@ var Enemy = (function() {
             default:
                 break;
         }
-        Map.map.attack(coord, 20);
+        Map.attack(coord, 20);
     };
 
     return module;
