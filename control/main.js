@@ -20,6 +20,7 @@ function parse(str) {
                 Player.canMove = true;
                 var audio = new Audio('assets/sounds/coin.mp3');
                 audio.play();
+                Map.map.splice(Map.map.indexOf(element), 1);
                 break;
             case 'e':
                 console.log("yo");
@@ -44,7 +45,11 @@ function parse(str) {
 
 function check() {
     if (Player.getX() === 10){
-
+        Map.map.forEach(function (element){
+           if(element.name == 'r'){
+               return false;
+           }
+        });
         clearInterval(loop);
         level++;
         $('#console-log-text').text('');
