@@ -15,7 +15,7 @@ var Enemy = (function() {
 
     module.getX = function() {
         return this.x;
-    }
+    };
 
     module.setDirection = function(dir) {
         this.direction = dir;
@@ -26,7 +26,18 @@ var Enemy = (function() {
     };
 
     module.attack = function() {
-
+        var coord = this.x;
+        switch (this.direction) {
+            case "LEFT":
+                coord--;
+                break;
+            case "RIGHT":
+                coord++;
+                break;
+            default:
+                break;
+        }
+        Map.map.attack(coord, 20);
     };
 
     return module;

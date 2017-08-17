@@ -73,10 +73,21 @@ var Player = (function() {
                 returnValue = element.name;
             }
         });
-    }
+    };
 
     module.attack = function() {
-
+        var coord = this.x;
+        switch (this.direction) {
+            case "LEFT":
+                coord--;
+                break;
+            case "RIGHT":
+                coord++;
+                break;
+            default:
+                break;
+        }
+        Map.map.attack(coord, 25);
     };
 
     return module;

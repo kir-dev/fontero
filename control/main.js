@@ -58,10 +58,6 @@ function check() {
     }
 }
 
-function victory() {
-
-}
-
 function loadMap(level) {
     $.when(
         $.get("assets/levels/level" + level + ".txt")
