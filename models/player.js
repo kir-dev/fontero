@@ -67,9 +67,21 @@ var Player = (function() {
     };
 
     module.feel = function() {
+        var offset = 0;
+        switch (this.direction) {
+            case "LEFT":
+                offset--;
+                break;
+            case "RIGHT":
+                offset++;
+                break;
+            default:
+                break;
+        }
+
         var returnValue = false;
         Map.map.forEach(function(element) {
-            if (element.name === 'e' && element.x === Player.getX() + 1) {
+            if (element.name === 'e' && element.x === Player.getX() + offset) {
                 returnValue = true;
             }
         });
