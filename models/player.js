@@ -93,7 +93,7 @@ var Player = (function() {
 
     module.attack = function() {
 
-        var audio = new Audio('assets/sounds/sword.aac');
+        var audio = new Audio('assets/sounds/sword.mp3');
         audio.play();
         var coord = this.x;
         switch (this.direction) {

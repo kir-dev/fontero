@@ -28,7 +28,7 @@ var Enemy = (function() {
 
     module.attack = function() {
 
-        var audio = new Audio('assets/sounds/rawr.aac');
+        var audio = new Audio('assets/sounds/rawr.mp3');
         audio.play();
         var coord = this.x;
         switch (this.direction) {

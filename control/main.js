@@ -18,7 +18,7 @@ function parse(str) {
         switch (element.name) {
             case 'r':
                 Player.canMove = true;
-                var audio = new Audio('assets/sounds/coin.aac');
+                var audio = new Audio('assets/sounds/coin.mp3');
                 audio.play();
                 break;
             case 'e':
@@ -74,7 +74,7 @@ function loadMap(level) {
 };
 
 $(function () {
-   level = 2;
-    loadMap(level);
+   level = 1;
+   loadMap(level);
 });
 
