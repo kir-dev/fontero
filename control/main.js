@@ -9,19 +9,20 @@ function parse(str) {
 
         console.log("ROUND " + i + " ------------------");
 
-        eval(str);
-
         switch (Player.checkNextField(Map.map)) {
             case 'r':
-                //clearInterval(loop);
+                var audio = new Audio('assets/sounds/coin.mp3');
+                audio.play();
                 break;
             case 'e':
                 console.log("yo");
-                clearInterval(loop);
+                Player.canMove = false;
                 break;
             default:
                 break;
         }
+
+        eval(str);
 
         Display.draw(Map.map);
 

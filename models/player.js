@@ -6,6 +6,7 @@ var Player = (function() {
     var y;
     var direction;
     var health;
+    var canMove;
 
     module.name = 'p';
 
@@ -14,13 +15,13 @@ var Player = (function() {
         this.y = y;
         this.direction = direction;
         this.health = health;
+        this.canMove = true;
     };
 
 
     module.getX = function() {
         return this.x;
-    }
-
+    };
 
     module.setDir = function(dir) {
         this.direction = dir;
@@ -31,6 +32,10 @@ var Player = (function() {
     };
 
     module.walk = function() {
+        if(!this.canMove) {
+            console.log('Nem tudsz tovább menni');
+            return;
+        }
         switch (this.direction) {
             case "UP":
                 this.y++;
@@ -63,12 +68,14 @@ var Player = (function() {
 
     module.feel = function() {
         var returnValue = false;
+        console.log(Map.map);
         Map.map.forEach(function(element) {
-            if (element.name === 'e' && element.x === Player.getX() + 1) {
-                returnValue = element.name;
+            if (element.name === 'e' && element.x == Player.getX() + 1) {
+                returnValue = true;
             }
         });
-    }
+        return returnValue;
+    };
 
     module.attack = function() {
 
