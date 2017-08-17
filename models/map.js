@@ -13,23 +13,24 @@ var Map = (function() {
 
     module.parseLevel = function(contents) {
         var line = [];
-
+        console.log("in parselevel ");
         for (var index = 0; index < contents.length; index++) {
             var char = contents.charAt(index);
-
+        console.log("in parselevel loop");
             switch (char) {
                 case 'p':
-                    Player.constructor(0, 4, "RIGHT", 100);
+                    Player.constructor(index, 4, "RIGHT", 100);
+                    console.log("pushing player");
                     map.push(Player);
                     break;
                 case 'r':
-                    console.log(index);
+
                     var coin = Ruby();
                     coin.init(index, 0);
                     map.push(coin);
                     break;
                 case 'e':
-                    console.log(index);
+
                     var enemy = Enemy();
                     enemy.init(index, 0);
                     map.push(enemy);

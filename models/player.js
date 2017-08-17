@@ -68,14 +68,12 @@ var Player = (function() {
 
     module.feel = function() {
         var returnValue = false;
-        console.log(Map.map);
         Map.map.forEach(function(element) {
-            if (element.name === 'e' && element.x == Player.getX() + 1) {
-                returnValue = true;
+            if (element.name === 'e' && element.x === Player.getX() + 1) {
+                returnValue = element.name;
             }
         });
-        return returnValue;
-    };
+    }
 
     module.attack = function() {
 

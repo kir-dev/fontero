@@ -22,8 +22,9 @@ var Display = (function() {
         context.font = '30px Arial';
         context.fillText('Health:' + Player.health, 10, 50);
 
-
+        console.log(map);
         map.forEach(function(element) {
+            console.log(element);
             var img = new Image();
             switch (element.name) {
                 case 'p':

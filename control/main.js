@@ -1,13 +1,19 @@
 
+var loop;
+var level;
+
 function parse(str) {
 
     var i = 0;
 
-    var loop = setInterval(function () {
+     loop = setInterval(function () {
 
         i++;
 
         console.log("ROUND " + i + " ------------------");
+
+
+        check();
 
         switch (Player.checkNextField(Map.map)) {
             case 'r':
@@ -26,6 +32,7 @@ function parse(str) {
 
         Display.draw(Map.map);
 
+
         if(i>25){ clearInterval(loop);}
 
     }, 500);
@@ -33,24 +40,34 @@ function parse(str) {
 }
 
 function check() {
+    if (Player.getX() === 10){
+
+        clearInterval(loop);
+        level++;
+        console.log(level);
+        Map.map.splice(0,Map.map.length);
+        loadMap(level);
+    }
+}
+
+function victory() {
 
 }
 
-$(function () {
-
-    var level = 1;
-    loadMap(level);
-
-    function loadMap(level) {
-        $.when(
-            $.get("assets/levels/level" + level + ".txt")
-        ).then(function (response) {
-            Player.constructor();
-            Display.setPlayer = Player;
-
+function loadMap(level) {
+    $.when(
+        $.get("assets/levels/level" + level + ".txt")
+    ).then(function (response) {
+        Player.constructor();
+        Display.setPlayer = Player;
+        console.log("in loadmap");
             Map.parseLevel(response);
-            Display.draw(Map.map);
-        });
-    };
+        Display.draw(Map.map);
+    });
+};
+
+$(function () {
+   level = 1;
+    loadMap(level);
 });
 
