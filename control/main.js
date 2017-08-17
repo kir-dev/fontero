@@ -49,6 +49,7 @@ function check() {
         level++;
         $('#console-log-text').text('');
         console.log("Victory!");
+        Player.health = 100;
         Map.map.splice(0,Map.map.length);
         loadMap(level);
     }
@@ -68,7 +69,7 @@ function loadMap(level) {
         Player.constructor();
         Display.setPlayer = Player;
         console.log("in loadmap");
-            Map.parseLevel(response);
+        Map.parseLevel(response);
         Display.draw(Map.map);
     });
 };
