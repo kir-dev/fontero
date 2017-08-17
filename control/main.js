@@ -54,7 +54,7 @@ function check() {
         level++;
         $('#console-log-text').text('');
         console.log("Victory!");
-        Player.health = 100;
+        Player.health = 5;
         Map.map.splice(0,Map.map.length);
         loadMap(level);
     }
