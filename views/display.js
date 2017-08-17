@@ -20,7 +20,10 @@ var Display = (function() {
 
         context.fillStyle = 'red';
         context.font = '30px Arial';
-        context.fillText('Health:' + Player.health, 10, 50);
+
+        for ( var i = 0; i < Player.health; i++){
+            context.drawImage(imageCache.heart, 10+(i*40), 10, 50, 50);
+        }
 
         console.log(map);
         map.forEach(function(element) {
@@ -82,6 +85,7 @@ var Display = (function() {
     cacheImage('crate', 'mummy_crate');
     cacheImage('player', 'mummy_character');
     cacheImage('enemy', 'mummy_enemy');
+    cacheImage('heart', 'mummy_heart');
     cacheImage('ruby', 'mummy_coin');
     cacheImage('bg', 'mummy_bg');
 

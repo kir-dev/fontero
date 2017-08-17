@@ -19,7 +19,7 @@ var Map = (function() {
         console.log("in parselevel loop");
             switch (char) {
                 case 'p':
-                    Player.constructor(index, 4, "RIGHT", 100);
+                    Player.constructor(index, 4, "RIGHT", 5);
                     console.log("pushing player");
                     map.push(Player);
                     break;
@@ -33,7 +33,7 @@ var Map = (function() {
 
                     var enemy = Enemy();
                     enemy.init(index, 0, "LEFT");
-                    enemy.setHealth(100);
+                    enemy.setHealth(4);
                     map.push(enemy);
                     break;
                 case 's':
@@ -55,7 +55,7 @@ var Map = (function() {
                 }
             }
         });
-    }
+    };
 
     module.map = map;
     return module;
