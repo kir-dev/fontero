@@ -49,19 +49,24 @@ function parse(str) {
 }
 
 function check() {
-    if (Player.getX() === 10){
+    if (Player.getX() === 13){
+        var win = true;
         Map.map.forEach(function (element){
            if(element.name == 'r'){
-               return false;
+               win = false;
            }
         });
-        clearInterval(loop);
-        level++;
-        $('#console-log-text').text('');
-        console.log("Victory!");
-        Player.health = 100;
-        Map.map.splice(0,Map.map.length);
-        loadMap(level);
+        if(win){
+            clearInterval(loop);
+            level++;
+            $('#console-log-text').text('');
+            console.log("Victory!");
+            Player.health = 100;
+            Map.map.splice(0,Map.map.length);
+            loadMap(level);
+        } else {
+            console.log('Vedd fel az összes coint!');
+        }
     }
     if(Player.health <= 0){
         clearInterval(loop);
