@@ -44,12 +44,14 @@ function check() {
 
         clearInterval(loop);
         level++;
+        $('#console-log-text').text('');
         console.log("Victory!");
         Map.map.splice(0,Map.map.length);
         loadMap(level);
     }
     if(Player.health <= 0){
         clearInterval(loop);
+        $('#console-log-text').text('');
         console.log("Defeat!");
         Map.map.splice(0,Map.map.length);
         loadMap(level);
