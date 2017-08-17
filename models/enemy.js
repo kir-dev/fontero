@@ -41,7 +41,7 @@ var Enemy = (function() {
             default:
                 break;
         }
-        Map.attack(coord, 1);
+        Map.attack(coord, 20);
     };
 
     return module;

@@ -13,14 +13,11 @@ var Map = (function() {
 
     module.parseLevel = function(contents) {
         var line = [];
-        console.log("in parselevel ");
         for (var index = 0; index < contents.length; index++) {
             var char = contents.charAt(index);
-        console.log("in parselevel loop");
             switch (char) {
                 case 'p':
-                    Player.constructor(index, 4, "RIGHT", 5);
-                    console.log("pushing player");
+                    Player.constructor(index, 4, "RIGHT", 100);
                     map.push(Player);
                     break;
                 case 'r':
@@ -37,6 +34,7 @@ var Map = (function() {
                     map.push(enemy);
                     break;
                 case 's':
+                    map.push({"name":"s", "x": index, "y": 0});
                     break;
                 default:
                     break;
@@ -45,11 +43,11 @@ var Map = (function() {
     };
 
     module.attack = function (coord, dmg) {
-        console.log(coord + ' ' + dmg);
+
         map.forEach(function(element, index) {
             if (element.x === coord) {
                 element.health -= dmg;
-                console.log(element.name + element.health);
+
                 if(element.health <=0){
                     map.splice(index,1);
                 }

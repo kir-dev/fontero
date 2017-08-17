@@ -9,12 +9,12 @@ function parse(str) {
      loop = setInterval(function () {
 
         i++;
-
         console.log("ROUND " + i + " ------------------");
 
-
         check();
-         var element = Player.checkNextField(Map.map);
+
+        var element = Player.checkNextField(Map.map);
+
         switch (element.name) {
             case 'r':
                 Player.canMove = true;
@@ -23,9 +23,14 @@ function parse(str) {
                 Map.map.splice(Map.map.indexOf(element), 1);
                 break;
             case 'e':
-                console.log("yo");
                 Player.canMove = false;
                 element.attack();
+                break;
+            case 's':
+                Player.canMove = true;
+                if(Player.health < 100){
+                    Player.health += 1;
+                }
                 break;
             default:
                 Player.canMove = true;
@@ -54,7 +59,7 @@ function check() {
         level++;
         $('#console-log-text').text('');
         console.log("Victory!");
-        Player.health = 5;
+        Player.health = 100;
         Map.map.splice(0,Map.map.length);
         loadMap(level);
     }
@@ -73,7 +78,6 @@ function loadMap(level) {
     ).then(function (response) {
         Player.constructor();
         Display.setPlayer = Player;
-        console.log("in loadmap");
         Map.parseLevel(response);
         Display.draw(Map.map);
     });

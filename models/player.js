@@ -106,7 +106,7 @@ var Player = (function() {
             default:
                 break;
         }
-        Map.attack(coord, 1);
+        Map.attack(coord, 25);
     };
 
     return module;

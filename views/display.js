@@ -21,13 +21,11 @@ var Display = (function() {
         context.fillStyle = 'red';
         context.font = '30px Arial';
 
-        for ( var i = 0; i < Player.health; i++){
-            context.drawImage(imageCache.heart, 10+(i*40), 10, 50, 50);
+        for ( var i = 1; i <= Player.health / 20; i++){
+            context.drawImage(imageCache.heart, (i*40), 10, 50, 50);
         }
 
-        console.log(map);
         map.forEach(function(element) {
-            console.log(element);
             var img = new Image();
             switch (element.name) {
                 case 'p':
