@@ -75,7 +75,7 @@ var Player = (function() {
         return returnValue;
     };
 
-    module.feel = function() {
+    module.isEnemy = function() {
         var offset = 0;
         switch (this.direction) {
             case "LEFT":
