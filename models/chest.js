@@ -15,9 +15,9 @@ var Chest = (function() {
     };
     
     module.open = function () {
-        
-    }
+        Map.map.splice(Map.map.indexOf(this),1);
+    };
 
-    module.name = 'g';
+    module.name = 'c';
     return module;
 });

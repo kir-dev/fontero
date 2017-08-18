@@ -89,7 +89,7 @@ var Player = (function() {
         return returnValue;
     };
 
-    module.isEnemy = function() {
+    module.getNext = function() {
         var offset = 0;
         switch (this.direction) {
             case "LEFT":
@@ -102,17 +102,14 @@ var Player = (function() {
                 break;
         }
 
-        var returnValue = false;
+        var returnValue = 's';
         Map.map.forEach(function(element) {
-            if (element.name === 'e' && element.x === Player.getX() + offset) {
-                returnValue = true;
+            if (element.x === Player.getX() + offset) {
+                returnValue = element.name;
             }
         });
         return returnValue;
     };
-
-   // if(Player.feel()){Player.attack()}
-    // else{Player.walk()}
 
     module.attack = function() {
 
@@ -137,6 +134,7 @@ var Player = (function() {
         Map.attack(coord, 25);
 
     };
+
 
     return module;
 })();
