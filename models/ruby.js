@@ -12,7 +12,7 @@ var Ruby = (function() {
 
     module.getX = function () {
         return this.x;
-    }
+    };
 
     module.name = 'r';
     return module;

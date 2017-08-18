@@ -29,13 +29,13 @@ var Display = (function() {
             var img = new Image();
             switch (element.name) {
                 case 'p':
-                    context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(4), 156, 226);
+                    context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(2), 156, 206);
                     break;
                 case 'r':
-                    context.drawImage(imageCache.ruby, translateImage(element.getX()), translateImage(5), 113, 113);
+                    context.drawImage(imageCache.ruby, translateImage(element.getX()), translateImage(3), 64, 64);
                     break;
                 case 'e':
-                    context.drawImage(imageCache.enemy, translateImage(element.getX()), translateImage(5), 156, 150);
+                    context.drawImage(imageCache.enemy, translateImage(element.getX()), translateImage(2), 206, 200);
                     break;
                 default:
                     break;
