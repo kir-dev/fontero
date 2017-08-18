@@ -26,6 +26,12 @@ var Map = (function() {
                     coin.init(index, 0);
                     map.push(coin);
                     break;
+                case 'g':
+
+                    var gate = Gate();
+                    gate.init(index, 0);
+                    map.push(gate);
+                    break;
                 case 'e':
 
                     var enemy = Enemy();

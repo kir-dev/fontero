@@ -1,6 +1,7 @@
 
 var loop;
 var level;
+var victory;
 
 function parse(str) {
 
@@ -38,6 +39,9 @@ function parse(str) {
                     Player.health += 20;
                 }
                 break;
+            case 'g':
+                victory = true;
+                break;
             default:
                 if(Player.health < 100){
                     Player.health += 20;
@@ -58,7 +62,7 @@ function parse(str) {
 }
 
 function check() {
-    if (Player.getX() >= 8){
+    if (victory){
         var win = true;
         Map.map.forEach(function (element){
            if(element.name == 'r'){
@@ -97,7 +101,7 @@ function loadMap() {
     $.when(
         $.get("assets/levels/" + level + "/level.txt")
     ).then(function (response) {
-
+        victory = false;
         Player.constructor();
         Display.setPlayer = Player;
         Map.parseLevel(response);
