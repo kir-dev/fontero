@@ -6,7 +6,10 @@ function parse(str) {
 
     var i = 0;
 
+
      loop = setInterval(function () {
+         Player.canPerformAction = true;
+
 
         i++;
         console.log("ROUND " + i + " ------------------");
