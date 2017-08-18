@@ -1,4 +1,4 @@
-var Gate = (function() {
+var Chest = (function() {
     var module = {};
 
     var x;
