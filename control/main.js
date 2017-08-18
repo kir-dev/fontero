@@ -91,6 +91,8 @@ function check() {
     if(Player.health <= 0){
         restart();
         console.log("Defeat!");
+        var audio = new Audio('assets/sounds/fatality.mp3');
+        audio.play();
     }
 }
 function restart() {
