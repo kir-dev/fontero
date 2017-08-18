@@ -30,7 +30,7 @@ var Map = (function() {
 
                     var enemy = Enemy();
                     enemy.init(index, 0, "LEFT");
-                    enemy.setHealth(4);
+                    enemy.setHealth(100);
                     map.push(enemy);
                     break;
                 case 's':
