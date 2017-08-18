@@ -7,6 +7,7 @@ var Player = (function() {
     var direction;
     var health;
     var canMove;
+    var canPerformAction;
 
     module.name = 'p';
 
@@ -16,6 +17,7 @@ var Player = (function() {
         this.direction = direction;
         this.health = health;
         this.canMove = true;
+        this.canPerformAction = true;
     };
 
 
@@ -32,10 +34,16 @@ var Player = (function() {
     };
 
     module.walk = function() {
+        if(!this.canPerformAction){
+            console.log("Egy korben csak egy akciot tudsz vegrehajtani!");
+            return;
+        }
+        this.canPerformAction = false;
         if(!this.canMove) {
             console.log('Nem tudsz tovább menni');
             return;
         }
+
         switch (this.direction) {
             case "UP":
                 this.y++;
@@ -52,6 +60,7 @@ var Player = (function() {
             default:
                 break;
         }
+
 
     };
 
@@ -93,6 +102,11 @@ var Player = (function() {
 
     module.attack = function() {
 
+        if(!this.canPerformAction){
+            console.log("Egy korben csak egy akciot tudsz vegrehajtani!");
+            return;
+        }
+        this.canPerformAction = false;
         var audio = new Audio('assets/sounds/sword.mp3');
         audio.play();
         var coord = this.x;
@@ -107,6 +121,7 @@ var Player = (function() {
                 break;
         }
         Map.attack(coord, 25);
+
     };
 
     return module;
