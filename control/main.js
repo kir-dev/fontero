@@ -33,6 +33,10 @@ function parse(str) {
                 Player.canMove = false;
                 element.attack();
                 break;
+            case 'c':
+                Player.canMove = false;
+                element.open();
+                break;
             case 's':
                 Player.canMove = true;
                 if(Player.health < 100){

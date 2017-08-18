@@ -44,6 +44,9 @@ var Display = (function() {
                 case 'g':
                     context.drawImage(imageCache.gate, translateImage(element.getX()), translateImage(1), 206, 200);
                     break;
+                case 'c':
+                    context.drawImage(imageCache.chest, translateImage(element.getX()), translateImage(1), 206, 200);
+                    break;
                 default:
                     break;
             }
@@ -94,6 +97,7 @@ var Display = (function() {
     cacheImage('ruby', 'mummy_coin');
     cacheImage('bg', 'mummy_bg');
     cacheImage('gate', 'mummy_gate');
+    cacheImage('chest', 'mummy_chest');
 
     return module;
 })();

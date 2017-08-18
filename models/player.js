@@ -65,11 +65,25 @@ var Player = (function() {
     };
 
     module.checkNextField = function(map) {
+        var offset = 0;
+        switch (this.direction) {
+            case "LEFT":
+                offset--;
+                break;
+            case "RIGHT":
+                offset++;
+                break;
+            default:
+                break;
+        }
         var returnValue = 'empty field';
         map.forEach(function(element) {
-            if (element.x === Player.getX() + 1) {
-                returnValue = element;
-            }
+
+                if (element.x === Player.getX() + offset) {
+                    returnValue = element;
+                }
+
+
         });
 
         return returnValue;

@@ -32,6 +32,12 @@ var Map = (function() {
                     gate.init(index, 0);
                     map.push(gate);
                     break;
+                case 'c':
+
+                    var chest = Chest();
+                    chest.init(index, 0);
+                    map.push(chest);
+                    break;
                 case 'e':
 
                     var enemy = Enemy();
