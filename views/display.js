@@ -18,9 +18,6 @@ var Display = (function() {
 
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
 
-        context.fillStyle = 'red';
-        context.font = '30px Arial';
-
         for ( var i = 1; i <= Player.health / 20; i++){
             context.drawImage(imageCache.heart, (i*40), 10, 50, 50);
         }
@@ -29,13 +26,13 @@ var Display = (function() {
             var img = new Image();
             switch (element.name) {
                 case 'p':
-                    context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(2), 156, 206);
+                    context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206);
                     break;
                 case 'r':
-                    context.drawImage(imageCache.ruby, translateImage(element.getX()), translateImage(3), 64, 64);
+                    context.drawImage(imageCache.ruby, translateImage(element.getX()), translateImage(1.5), 64, 64);
                     break;
                 case 'e':
-                    context.drawImage(imageCache.enemy, translateImage(element.getX()), translateImage(2), 206, 200);
+                    context.drawImage(imageCache.enemy, translateImage(element.getX()), translateImage(1), 206, 200);
                     break;
                 default:
                     break;
@@ -69,7 +66,7 @@ var Display = (function() {
 
 
     function translateImage(coord) {
-        return (coord + 0.5) * 64 - 32;
+        return (coord) * 128;
     }
 
     function cacheImage(name, longName) {

@@ -49,7 +49,7 @@ function parse(str) {
 }
 
 function check() {
-    if (Player.getX() === 13){
+    if (Player.getX() >= 8){
         var win = true;
         Map.map.forEach(function (element){
            if(element.name == 'r'){
