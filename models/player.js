@@ -40,7 +40,7 @@ var Player = (function() {
         }
         this.canPerformAction = false;
         if(!this.canMove && this.direction == "RIGHT") {
-            console.log('Nem tudsz tovább menni');
+            console.log('Nem tudsz továbbmenni');
             return;
         }
 
@@ -88,6 +88,25 @@ var Player = (function() {
 
         return returnValue;
     };
+
+    module.openChest = function () {
+        var offset = 0;
+        switch (this.direction) {
+            case "LEFT":
+                offset--;
+                break;
+            case "RIGHT":
+                offset++;
+                break;
+            default:
+                break;
+        }
+
+        this.checkNextField(Map.map).open();
+
+
+    };
+
 
     module.getNext = function() {
         var offset = 0;

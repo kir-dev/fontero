@@ -35,7 +35,7 @@ function parse(str) {
                 break;
             case 'c':
                 Player.canMove = false;
-                element.open();
+
                 break;
             case 's':
                 Player.canMove = true;
@@ -123,7 +123,7 @@ function loadMap() {
 };
 
 $(function () {
-   level = 1;
+   level = 3;
    loadMap();
 });
 

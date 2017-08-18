@@ -1,0 +1,2 @@
+Megjelent előtted egy ellenség!<br>
+Ahhoz, hogy elérd a kijáratot, meg kell küzdened vele!

@@ -27,9 +27,7 @@ var Display = (function() {
             switch (element.name) {
                 case 'p':
                     if(element.direction === "LEFT"){
-                        context.scale(-1,1);
-                        context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), -156, 206);
-                        context.scale(-1,1);
+                        context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206);
                     }
                     else{
                         context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206);
@@ -45,7 +43,7 @@ var Display = (function() {
                     context.drawImage(imageCache.gate, translateImage(element.getX()), translateImage(1), 206, 200);
                     break;
                 case 'c':
-                    context.drawImage(imageCache.chest, translateImage(element.getX()), translateImage(1), 206, 200);
+                    context.drawImage(imageCache.chest  , translateImage(element.getX()), translateImage(1), 206, 200);
                     break;
                 default:
                     break;
