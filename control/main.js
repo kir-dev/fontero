@@ -69,15 +69,17 @@ function check() {
         }
     }
     if(Player.health <= 0){
-        clearInterval(loop);
-        $('#console-log-text').text('');
+        restart();
         console.log("Defeat!");
-        Map.map.splice(0,Map.map.length);
-        loadMap(level);
     }
 }
-
-function loadMap(level) {
+function restart() {
+    clearInterval(loop);
+    $('#console-log-text').text('');
+    Map.map.splice(0,Map.map.length);
+    loadMap();
+}
+function loadMap() {
     $.when(
         $.get("assets/levels/level" + level + ".txt")
     ).then(function (response) {
@@ -90,6 +92,6 @@ function loadMap(level) {
 
 $(function () {
    level = 1;
-   loadMap(level);
+   loadMap();
 });
 
