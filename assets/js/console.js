@@ -36,8 +36,6 @@
         style.marginBottom = '10px';
         style.whiteSpace = 'pre';
         style.width = '940px';
-        style.border = '1px solid black';
-        style.borderRadius = '5px';
         style.padding = '5px 10px';
         return outer;
     }
@@ -46,9 +44,7 @@
 
         var outer = createOuterElement();
 
-        var caption = document.createTextNode('console output');
         var legend = document.createElement('legend');
-        legend.appendChild(caption);
         outer.appendChild(legend);
 
         var div = document.createElement('div');

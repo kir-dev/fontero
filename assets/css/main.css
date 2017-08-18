@@ -26,3 +26,13 @@ body{
 .help{
     text-align: center;
 }
+#console-log-div{
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 220px;
+    overflow-y: scroll;
+    padding: 5px 10px;
+    color: white;
+    background: black;
+}
