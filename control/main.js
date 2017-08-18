@@ -76,6 +76,13 @@ function check() {
         if(win){
             clearInterval(loop);
             level++;
+            if(Math.random()>0.5){
+                var audio = new Audio('assets/sounds/ugyi.mp3');
+            } else {
+                var audio = new Audio('assets/sounds/jovagy.mp3');
+            }
+            audio.play();
+
             $('#console-log-text').text('');
             console.log("Victory!");
             Player.health = 100;
@@ -88,6 +95,8 @@ function check() {
     if(Player.health <= 0){
         restart();
         console.log("Defeat!");
+        var audio = new Audio('assets/sounds/fatality.mp3');
+        audio.play();
     }
 }
 function restart() {
