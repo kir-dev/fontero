@@ -26,7 +26,14 @@ var Display = (function() {
             var img = new Image();
             switch (element.name) {
                 case 'p':
-                    context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206);
+                    if(element.direction === "LEFT"){
+                        context.scale(-1,1);
+                        context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), -156, 206);
+                        context.scale(-1,1);
+                    }
+                    else{
+                        context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206);
+                    }
                     break;
                 case 'r':
                     context.drawImage(imageCache.ruby, translateImage(element.getX()), translateImage(1.5), 64, 64);
