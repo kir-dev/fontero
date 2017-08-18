@@ -66,7 +66,7 @@ function parse(str) {
 }
 
 function check() {
-    if (victory){
+    if (viktoria){
         var win = true;
         Map.map.forEach(function (element){
            if(element.name == 'r'){
@@ -84,7 +84,7 @@ function check() {
             audio.play();
 
             $('#console-log-text').text('');
-            console.log("Victory!");
+            console.log("Nyertél!");
             Player.health = 100;
             Map.map.splice(0,Map.map.length);
             loadMap(level);
@@ -114,7 +114,7 @@ function loadMap() {
     $.when(
         $.get("assets/levels/" + level + "/level.txt")
     ).then(function (response) {
-        victory = false;
+        viktoria = false;
         Player.constructor();
         Display.setPlayer = Player;
         Map.parseLevel(response);
@@ -123,7 +123,7 @@ function loadMap() {
 };
 
 $(function () {
-   level = 3;
+   level = 1;
    loadMap();
 });
 

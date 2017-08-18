@@ -27,7 +27,7 @@ var Display = (function() {
             switch (element.name) {
                 case 'p':
                     if(element.direction === "LEFT"){
-                        context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206);
+                        context.drawImage(imageCache.player_left, translateImage(element.getX()), translateImage(1), 156, 206);
                     }
                     else{
                         context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206);
@@ -90,6 +90,7 @@ var Display = (function() {
 
     cacheImage('crate', 'mummy_crate');
     cacheImage('player', 'mummy_character');
+    cacheImage('player_left', 'mummy_character_left');
     cacheImage('enemy', 'mummy_enemy');
     cacheImage('heart', 'mummy_heart');
     cacheImage('ruby', 'mummy_coin');

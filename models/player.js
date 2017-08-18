@@ -130,6 +130,21 @@ var Player = (function() {
         return returnValue;
     };
 
+    module.getChestDistance = function() {
+
+        var distance = 0;
+        Map.map.forEach(function(element) {
+            if (element.name === "c") {
+                distance = Player.x - element.x;
+            }
+        });
+        if(Player.direction == "RIGHT"){
+            distance *= -1;
+        }
+        return distance;
+
+    };
+
     module.attack = function() {
 
         if(!this.canPerformAction){

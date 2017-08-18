@@ -17,10 +17,6 @@ var Chest = (function() {
     module.open = function () {
         var index = Map.map.indexOf(this);
         Map.map.splice(index,1);
-
-        var coin = Ruby();
-        coin.init(index, 0);
-        Map.map.push(coin);
     };
 
     module.name = 'c';
