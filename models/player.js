@@ -39,7 +39,7 @@ var Player = (function() {
             return;
         }
         this.canPerformAction = false;
-        if(!this.canMove) {
+        if(!this.canMove && this.direction == "RIGHT") {
             console.log('Nem tudsz tovább menni');
             return;
         }

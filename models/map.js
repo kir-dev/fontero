@@ -12,7 +12,7 @@ var Map = (function() {
 
 
     module.parseLevel = function(contents) {
-        var line = [];
+
         for (var index = 0; index < contents.length; index++) {
             var char = contents.charAt(index);
             switch (char) {

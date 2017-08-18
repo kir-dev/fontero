@@ -20,6 +20,9 @@ function parse(str) {
 
         switch (element.name) {
             case 'r':
+                if(Player.health < 100){
+                    Player.health += 20;
+                }
                 Player.canMove = true;
                 var audio = new Audio('assets/sounds/coin.mp3');
                 audio.play();
@@ -32,10 +35,13 @@ function parse(str) {
             case 's':
                 Player.canMove = true;
                 if(Player.health < 100){
-                    Player.health += 1;
+                    Player.health += 20;
                 }
                 break;
             default:
+                if(Player.health < 100){
+                    Player.health += 20;
+                }
                 Player.canMove = true;
                 break;
         }
@@ -84,8 +90,14 @@ function restart() {
 }
 function loadMap() {
     $.when(
-        $.get("assets/levels/level" + level + ".txt")
+        $.get("assets/levels/" + level + "/hint.txt")
     ).then(function (response) {
+        $('#hint').html(response);
+    });
+    $.when(
+        $.get("assets/levels/" + level + "/level.txt")
+    ).then(function (response) {
+
         Player.constructor();
         Display.setPlayer = Player;
         Map.parseLevel(response);
