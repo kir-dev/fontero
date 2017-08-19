@@ -44,7 +44,7 @@ function parse(str) {
                 }
                 break;
             case 'g':
-                victory = true;
+                viktoria = true;
                 break;
             default:
                 if(Player.health < 100){
