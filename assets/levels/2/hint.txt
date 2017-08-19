@@ -1,2 +1,7 @@
-Megjelent előtted egy ellenség!<br>
-Ahhoz, hogy elérd a kijáratot, meg kell küzdened vele!
+Megjelent előttetek egy ellenség!<br>
+Ahhoz, hogy elérjétek a kijáratot, meg kell küzdened vele! (Ne aggódjatok, erősebbek vagytok nála)<br>
+A támadáshoz a <code>Player.attack();</code> függvényt kell meghívnotok<br>
+Azt, hogy mi van előttetek, a <code>Player.getNext();</code> függvénnyel tudhatjátok meg. ("e" -t ad vissza, hogyha ellenség)<br>
+Ha még nem nagyon írtatok javascript kódot, itt van még egy kis segítség az elágazásokról:<br>
+<code>if(function() == "valami"){ (...); }
+else { (...); }</code>

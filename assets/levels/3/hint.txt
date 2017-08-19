@@ -1,0 +1,8 @@
+Vajon mit rejthet a láda? Csak nem a nyeréshez szükséges aranyat?<br>
+Új függvények, amire szükségetek lesz a pályához:<br>
+A játékos irányának megváltoztatása: <code>Player.setDir("LEFT") //vagy "RIGHT értelemszerűen</code><br>
+A láda kinyitása: <code>Player.openChest() //hogyha egy távolságra vagytok tőle</code><br>
+A láda távolságának kiderítése a játékostól: <code>Player.getChestDistance()</code><br>
+Lehet, hogy összetettebb feltételeket is vizsgálnotok kell majd (de lehet, hogy ezek nélkül is meg tudjátok oldani)<br>
+<code>if(a || b) //vagy </code><br>
+<code>if(a && b) //és </code><br>

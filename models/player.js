@@ -33,6 +33,10 @@ var Player = (function() {
         this.health = health;
     };
 
+    module.getHealth = function(health) {
+        return health;
+    };
+
     module.walk = function() {
         if(!this.canPerformAction){
             console.log("Egy korben csak egy akciot tudsz vegrehajtani!");

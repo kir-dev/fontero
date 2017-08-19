@@ -69,7 +69,7 @@ function check() {
     if (viktoria){
         var win = true;
         Map.map.forEach(function (element){
-           if(element.name == 'r'){
+           if(element.name == 'r' || element.name == 'c'){
                win = false;
            }
         });
