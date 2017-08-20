@@ -1,10 +1,10 @@
 
 var loop;
 var level;
-var victory;
+var viktoria;
 
 function parse(str) {
-
+    restart();
     var i = 0;
 
 
