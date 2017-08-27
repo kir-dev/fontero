@@ -139,3 +139,10 @@
     });
 
 }());
+
+$('#code').keydown(function (e) {
+    if (e.ctrlKey && e.keyCode == 13) {
+      parse($('#code').val());
+    }
+});
+
