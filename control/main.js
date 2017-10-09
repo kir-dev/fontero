@@ -120,10 +120,24 @@ function loadMap() {
         Map.parseLevel(response);
         Display.draw(Map.map);
     });
-};
+}
+
+function changeLevel() {
+    var levelPopup = prompt("Enter level", "");
+
+    if ( levelPopup != null && level != levelPopup) {
+        $.get("assets/levels/" + levelPopup + "/level.txt", function() {
+          level = levelPopup;
+          restart();
+        })
+        .fail(function() {
+            alert("There is no level: " + levelPopup );
+        })
+    }
+}
+
 
 $(function () {
    level = 1;
    loadMap();
 });
-
