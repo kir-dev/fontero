@@ -1,36 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Fontero</title>
     <meta charset="utf-8">
     <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="models/player.js"></script>
-    <script src="models/enemy.js"></script>
-    <script src="models/chest.js"></script>
-    <script src="models/ruby.js"></script>
-    <script src="models/gate.js"></script>
-    <script src="models/map.js"></script>
-    <script src="views/display.js"></script>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
-    <div class="container">
-
-        <canvas id="playcanvas" width="960" height="320">
-        </canvas>
-        <p class="help" id="hint"></p>
-        <div id="console-log-div"></div>
-        <textarea id="code"></textarea>
-        <button onclick="parse($('#code').val())" class="btn">RUN</button>
-        <button onclick="restart()" class="btn">RESTART</button>
-        <button onclick="changeLevel()" class="btn">Change level</button>
-
-        <script src="assets/js/console.js"></script>
-
+<div class="container">
+    <script>
+        $(document).ready(function () {
+            $('.skin').click(function () {
+                var skin = $(this).data('skin');
+                $("a").each(function (index) {
+                    $(this).attr('href', $(this).attr('href').replace(/\&.*$/, "") + "&skin=" + skin);
+                });
+                $('.skin').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script>
+    <h1 align="center">Fontero - Kir-Dev</h1>
+    <h2>Válassz karaktert!</h2>
+    <div>
+        <div class="skin pull-left active" data-skin="pirate">
+            <img src="assets/images/pirate/character.svg" alt="pirate">
+        </div>
+        <div class="skin pull-left" data-skin="mummy">
+            <img src="assets/images/mummy/character.svg" alt="mummy">
+        </div>
+        <div class="skin pull-left" data-skin="wildwest">
+            <img src="assets/images/wildwest/character.svg" alt="wildwest">
+        </div>
+        <div style="clear:both; height: 0px;">&nbsp;</div>
     </div>
 
-    <script src="control/main.js"></script>
+    <h2>Válassz szintet!</h2>
+    <div class="level">
+        <a href="game.html?level=1&skin=pirate">
+        <div class="pull-left">
+            <img src="assets/levels/1/cover.png">
+        </div>
+        <div class="pull-left description">
+            <h2>Level 1</h2>
+            <blockquote>
+                "Csak így tanulsz meg a magad lábán járni, és pontosan rájössz majd, hogy mit lehet és mit szabad."
+                <br>
+                <small class="pull-right">Fekete István</small>
+            </blockquote>
+        </div>
+        <div style="clear:both; height: 0px;">&nbsp;</div>
+        </a>
+    </div>
+    <div class="level">
+        <a href="game.html?level=2&skin=pirate">
+        <div class="pull-left">
+            <img src="assets/levels/2/cover.png">
+        </div>
+        <div class="pull-left description">
+            <h2>Level 2</h2>
+        </div>
+        <div style="clear:both; height: 0px;">&nbsp;</div>
+        </a>
+    </div>
+    <div class="level">
+        <a href="game.html?level=3&skin=pirate">
+        <div class="pull-left">
+            <img src="assets/levels/3/cover.png">
+        </div>
+        <div class="pull-left description">
+            <h2>Level 3</h2>
+        </div>
+            <div style="clear:both; height: 0px;">&nbsp;</div>
+        </a>
+    </div>
+    <div class="level">
+        <a href="game.html?level=4&skin=pirate">
+            <div class="pull-left">
+                <img src="assets/levels/4/cover.png">
+            </div>
+            <div class="pull-left description">
+                <h2>Level 4</h2>
+            </div>
+            <div style="clear:both; height: 0px;">&nbsp;</div>
+        </a>
+    </div>
+    <div class="level">
+        <a href="game.html?level=5&skin=pirate">
+        <div class="pull-left">
+            <img src="http://placehold.it/948x156?text=?">
+        </div>
+        <div class="pull-left description">
+            <h2>Level 5</h2>
+        </div>
+        <div style="clear:both; height: 0px;">&nbsp;</div>
+        </a>
+    </div>
+    <div class="level">
+        <a href="game.html?level=6&skin=pirate">
+        <div class="pull-left">
+            <img src="http://placehold.it/948x156?text=?">
+        </div>
+        <div class="pull-left description">
+            <h2>Level 6</h2>
+        </div>
+        <div style="clear:both; height: 0px;">&nbsp;</div>
+        </a>
+    </div>
+</div>
+
 
 </body>
 </html>

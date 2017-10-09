@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="models/player.js"></script>
+    <script src="models/enemy.js"></script>
+    <script src="models/chest.js"></script>
+    <script src="models/ruby.js"></script>
+    <script src="models/gate.js"></script>
+    <script src="models/map.js"></script>
+    <script src="views/display.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <canvas id="playcanvas" width="960" height="320">
+        </canvas>
+        <p class="help" id="hint"></p>
+        <div id="console-log-div"></div>
+        <textarea id="code"></textarea>
+        <button onclick="parse($('#code').val())" class="btn">RUN</button>
+        <button onclick="restart()" class="btn">RESTART</button>
+        <button onclick="changeLevel()" class="btn">Change level</button>
+
+        <script src="assets/js/console.js"></script>
+
+    </div>
+
+    <script src="control/main.js"></script>
+
+</body>
+</html>

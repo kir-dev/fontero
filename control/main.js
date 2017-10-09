@@ -2,6 +2,7 @@
 var loop;
 var level;
 var viktoria;
+var skin;
 
 function parse(str) {
     restart();
@@ -56,7 +57,7 @@ function parse(str) {
 
         eval(str);
 
-        Display.draw(Map.map);
+        Display.initMap(skin, Map.map);
 
 
         if(i>25){ clearInterval(loop);}
@@ -103,9 +104,9 @@ function restart() {
     clearInterval(loop);
     $('#console-log-text').text('');
     Map.map.splice(0,Map.map.length);
-    loadMap();
+    loadMap(skin);
 }
-function loadMap() {
+function loadMap(skin) {
     $.when(
         $.get("assets/levels/" + level + "/hint.txt")
     ).then(function (response) {
@@ -118,7 +119,7 @@ function loadMap() {
         Player.constructor();
         Display.setPlayer = Player;
         Map.parseLevel(response);
-        Display.draw(Map.map);
+        Display.initMap(skin, Map.map);
     });
 }
 
@@ -138,6 +139,17 @@ function changeLevel() {
 
 
 $(function () {
-   level = 1;
-   loadMap();
+   level = getParameterByName('level');
+   skin = getParameterByName('skin');
+   loadMap(skin);
 });
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}

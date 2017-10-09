@@ -3,14 +3,32 @@ var Display = (function() {
     var module = {};
     var imageCache = {};
     var player = {};
-
-
+    var skin;
 
     module.setPlayer = function(message) {
         player = message;
     };
 
-    module.draw = function(map) {
+    module.initMap = function(s, map) {
+        skin = s;
+        cacheImage('crate', 'crate');
+        cacheImage('player', 'character');
+        cacheImage('player_left', 'character_left');
+        cacheImage('enemy', 'enemy');
+        cacheImage('heart', 'heart');
+        cacheImage('ruby', 'coin');
+        cacheImage('bg', 'bg');
+        cacheImage('gate', 'gate');
+        cacheImage('chest', 'chest');
+        $('#myBar').animate({
+            width: "100%"
+        }, 1010).animate({ height: "0px" }, 50 );
+        setTimeout(function (){
+            draw(map)
+        }, 1000);
+
+    };
+    function draw(map) {
         var canvas = document.getElementById('playcanvas');
         var context = canvas.getContext('2d');
 
@@ -50,7 +68,7 @@ var Display = (function() {
             }
         });
 
-    };
+    }
 
    /* function animate(myRectangle, canvas, context, startTime) {
         // update
@@ -82,21 +100,22 @@ var Display = (function() {
 
     function cacheImage(name, longName) {
         var imageObj = new Image();
-        imageObj.src = 'assets/images/' + longName + '.svg';
+        imageObj.src = 'assets/images/' + skin + '/' + longName + '.svg';
         imageObj.onload = function() {
             imageCache[name] = imageObj;
         };
     }
 
-    cacheImage('crate', 'mummy_crate');
-    cacheImage('player', 'mummy_character');
-    cacheImage('player_left', 'mummy_character_left');
-    cacheImage('enemy', 'mummy_enemy');
-    cacheImage('heart', 'mummy_heart');
-    cacheImage('ruby', 'mummy_coin');
-    cacheImage('bg', 'mummy_bg');
-    cacheImage('gate', 'mummy_gate');
-    cacheImage('chest', 'mummy_chest');
+
+    cacheImage('crate', 'crate');
+    cacheImage('player', 'character');
+    cacheImage('player_left', 'character_left');
+    cacheImage('enemy', 'enemy');
+    cacheImage('heart', 'heart');
+    cacheImage('ruby', 'coin');
+    cacheImage('bg', 'bg');
+    cacheImage('gate', 'gate');
+    cacheImage('chest', 'chest');
 
     return module;
 })();

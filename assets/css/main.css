@@ -1,5 +1,6 @@
 body{
     background: #e6d48d;
+    font-family: Helvetica, Arial, Sans-Serif;
 }
 .container{
     margin: 0 auto;
@@ -35,4 +36,54 @@ body{
     padding: 5px 10px;
     color: white;
     background: black;
+}
+.skin {
+    width: 30%;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
+.skin img{
+    height: 96px;
+}
+.level a{
+    color: #1b1b1b;
+    text-decoration: none;
+}
+.level img {
+    width: 948px;
+}
+.level, .skin {
+    background: #dfd2a4;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.level:hover, .skin:hover, .active {
+    background: #ecdeae;
+}
+.pull-left {
+    float:left;
+}
+.pull-right {
+    float:right;
+}
+.description{
+    padding:10px
+}
+.description h2{
+    margin-top:0px;
+}
+#myProgress {
+    width: 960px;
+    position: fixed;
+    left: auto;
+    right: auto;
+
+ }
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #4d462b;
 }
