@@ -1,4 +1,4 @@
-Szedd fel az osszes penzt, es juss el a kijarathoz!<br>
+Szedd fel az összes pénzt, és juss el a kijárathoz!<br>
 A megoldáshoz egy rövid programot kell írnotok.<br>
 A ciklust megírtuk helyettetek, a kódotok addig fut, amíg nem nyertek (vagy el nem éritek a körök limitjét).<br>
 Ez a pálya nem fog gondot okozni:<br>
