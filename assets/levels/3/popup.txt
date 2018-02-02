@@ -1,0 +1,12 @@
+<p class="uk-text-bold">Level1:</p>
+Mozgás: <code>Player.walk();</code>
+<p class="uk-text-bold">Level2:</p>
+Támadás: <code>Player.attack();</code><br>
+Következő mező: <code>Player.getNext();</code><br>
+Elágazás: <code>if(function() == "valami"){ (...); } else { (...); }</code>
+<p class="uk-text-bold">Level3:</p>
+Fordulás: <code>Player.setDir("LEFT") //vagy "RIGHT értelemszerűen</code><br>
+Láda kinyitása: <code>Player.openChest() //hogyha egy távolságra vagytok tőle</code><br>
+Láda távolsága: <code>Player.getChestDistance()</code><br>
+"VAGY": <code>if(a || b) //vagy </code><br>
+"ÉS" <code>if(a && b) //és </code><br>

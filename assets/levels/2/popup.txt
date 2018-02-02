@@ -1,0 +1,6 @@
+<p class="uk-text-bold">Level1:</p>
+Mozgás: <code>Player.walk();</code>
+<p class="uk-text-bold">Level2:</p>
+Támadás: <code>Player.attack();</code><br>
+Következő mező: <code>Player.getNext();</code><br>
+Elágazás: <code>if(function() == "valami"){ (...); } else { (...); }</code>

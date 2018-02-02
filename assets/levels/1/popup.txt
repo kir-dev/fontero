@@ -1,0 +1,2 @@
+<p class="uk-text-bold">Level1:</p>
+Mozgás: <code>Player.walk();</code>

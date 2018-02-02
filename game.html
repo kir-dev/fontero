@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title></title>
+  <head>
+    <title>Fontero</title>
     <meta charset="utf-8">
     <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+
     <script src="models/player.js"></script>
     <script src="models/enemy.js"></script>
     <script src="models/chest.js"></script>
@@ -11,28 +13,49 @@
     <script src="models/gate.js"></script>
     <script src="models/map.js"></script>
     <script src="views/display.js"></script>
+
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
+  </head>
 
-    <div class="container">
-        <div id="myProgress">
-            <div id="myBar"></div>
+  <body class="uk-background">
+    <div class="uk-container">
+      <div class="uk-grid-collapse uk-text-center" uk-grid>
+        <div class="uk-width-1-1 uk-margin-medium-top uk-margin-small-bottom">
+          <canvas id="playcanvas" width="960" height="320"></canvas>
         </div>
-        <canvas id="playcanvas" width="960" height="320">
-        </canvas>
-        <p class="help" id="hint"></p>
-        <div id="console-log-div"></div>
-        <textarea id="code"></textarea>
-        <button onclick="parse($('#code').val())" class="btn">RUN</button>
-        <button onclick="restart()" class="btn">RESTART</button>
-        <button onclick="changeLevel()" class="btn">Change level</button>
 
-        <script src="assets/js/console.js"></script>
+        <div class="uk-width-1-1 uk-text-center">
+          <p class="help" id="hint"></p>
+        </div>
 
+        <div class="uk-width-1-1 uk-grid-collapse uk-text-center uk-margin-small-top" uk-grid>
+          <textarea class="uk-width-2-3 uk-padding-remove uk-margin-remove" id="code"></textarea>
+
+          <div class="uk-width-expand uk-grid-collapse uk-text-center uk-padding-remove uk-margin-remove" uk-grid>
+            <div class="uk-width-1-1 uk-height-medium uk-padding-remove uk-margin-remove" id="console-log-div"></div>
+            <button onclick="changeLevel()" class="uk-button uk-width-1-2 uk-text-center uk-padding-remove">Level</button>
+            <button onclick="showPopup()" class="uk-button uk-width-1-2 uk-padding-remove" type="button" uk-toggle="target: #modal-hint">Hint</button>
+            <button onclick="restart()" class="uk-width-1-1 uk-button uk-text-center uk-padding-remove">Restart</button>
+            <button onclick="parse($('#code').val())" class="uk-button uk-button-danger uk-width-1-1 uk-padding-remove">RUN</button>
+
+        </div>
+      </div>
     </div>
 
-    <script src="control/main.js"></script>
+    <script src="assets/js/console.js"></script>
 
-</body>
+  </div>
+
+  <script src="control/main.js"></script>
+  <div id="modal-hint" uk-modal>
+    <div class="modal uk-modal-dialog uk-modal-body">
+      <h2 class="uk-modal-title">Hint</h2>
+      <p id="hint-text"></p>
+      <p class="uk-text-right">
+        <button class="uk-button uk-button-default uk-modal-close" type="button">OK</button>
+      </p>
+    </div>
+  </div>
+  </body>
 </html>

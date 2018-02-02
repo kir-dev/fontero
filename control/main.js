@@ -137,11 +137,18 @@ function changeLevel() {
     }
 }
 
+function showPopup() {
+    $.when(
+        $.get("assets/levels/" + level + "/popup.txt")
+    ).then(function (response) {
+        $('#hint-text').html(response);
+    });
+}
 
 $(function () {
-   level = getParameterByName('level');
-   skin = getParameterByName('skin');
-   loadMap(skin);
+    level = getParameterByName('level');
+    skin = getParameterByName('skin');
+    loadMap(skin);
 });
 
 function getParameterByName(name, url) {
