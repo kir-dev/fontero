@@ -128,8 +128,9 @@ function changeLevel() {
 
     if ( levelPopup != null && level != levelPopup) {
         $.get("assets/levels/" + levelPopup + "/level.txt", function() {
-          level = levelPopup;
-          restart();
+            window.history.pushState(null, null, '?level=' + levelPopup + '&skin=' + getParameterByName('skin'));
+            level = levelPopup;
+            restart();
         })
         .fail(function() {
             alert("There is no level: " + levelPopup );
