@@ -33,8 +33,8 @@ var Player = (function() {
         this.health = health;
     };
 
-    module.getHealth = function(health) {
-        return health;
+    module.getHealth = function() {
+        return this.health;
     };
 
     module.walk = function() {
