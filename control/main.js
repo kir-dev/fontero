@@ -54,8 +54,13 @@ function parse(str) {
                 Player.canMove = true;
                 break;
         }
-
-        eval(str);
+        const regex = /(while|for)/g
+        if (regex.exec(str)) {
+            console.log('A kódban nem lehet ciklus!');
+            clearInterval(loop);
+        } else {
+            eval(str);
+        }
 
         Display.initMap(skin, Map.map);
 
