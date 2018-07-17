@@ -106,16 +106,5 @@ var Display = (function() {
         };
     }
 
-
-    cacheImage('crate', 'crate');
-    cacheImage('player', 'character');
-    cacheImage('player_left', 'character_left');
-    cacheImage('enemy', 'enemy');
-    cacheImage('heart', 'heart');
-    cacheImage('ruby', 'coin');
-    cacheImage('bg', 'bg');
-    cacheImage('gate', 'gate');
-    cacheImage('chest', 'chest');
-
     return module;
 })();
