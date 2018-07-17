@@ -32,7 +32,7 @@
         </div>
 
         <div class="uk-width-1-1 uk-grid-collapse uk-text-center uk-margin-small-top" uk-grid>
-          <textarea class="uk-width-2-3 uk-padding-remove uk-margin-remove" id="code"></textarea>
+          <textarea class="uk-width-2-3 uk-padding-remove uk-margin-remove" id="code" hidden></textarea>
 
           <div class="uk-width-expand uk-grid-collapse uk-text-center uk-padding-remove uk-margin-remove" uk-grid>
             <div class="uk-width-1-1 uk-height-medium uk-padding-remove uk-margin-remove" id="console-log-div"></div>
@@ -48,22 +48,9 @@
     <script src="assets/js/console.js"></script>
 
   </div>
-
-  <script src="control/main.js"></script>
   <script src="node_modules/codemirror/lib/codemirror.js"></script>
   <script src="node_modules/codemirror/mode/javascript/javascript.js"></script>
-  <script>
-    var cm = CodeMirror.fromTextArea(code, {
-      mode:  "javascript",
-      lineNumbers: true,
-      theme: "solarized light",
-      autofocus: true
-    });
-
-    //$(".CodeMirror").css("width", "600px")
-    $("[role=presentation]").css("text-align", "initial")
-    $(".CodeMirror").addClass("uk-width-2-3 uk-padding-remove uk-margin-remove")
-  </script>
+  <script src="control/main.js"></script>
   <div id="modal-hint" uk-modal>
     <div class="modal uk-modal-dialog uk-modal-body">
       <h2 class="uk-modal-title">Hint</h2>

@@ -1,4 +1,3 @@
-
 (function initConsoleLogDiv() {
     'use strict';
 
@@ -135,14 +134,7 @@
     };
 
     window.addEventListener('error', function (err) {
-        printToDiv( 'EXCEPTION:', err.message + '\n  ' + err.filename, err.lineno + ':' + err.colno);
+        printToDiv('EXCEPTION:', err.message + '\n  ' + err.filename, err.lineno + ':' + err.colno);
     });
 
 }());
-
-$('#code').keydown(function (e) {
-    if (e.ctrlKey && e.keyCode == 13) {
-      parse($('#code').val());
-    }
-});
-
