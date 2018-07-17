@@ -2,4 +2,4 @@ Eddig nagyon ügyesek vagytok!<br>
 Most viszont már két ellenséggel kell szembenéznetek. Eggyel, még épphogy elbírtatok, de kettőnél már okosabbnak kell lennetek!<br>
 Szerencsére ha a múmia éppen nem harcol, akkor visszatölti az életét. Ez hasznos lehet.<br>
 Új függvények:<br>
-Játékos életének lekérdezése: <code>Player.getHealth() //100 a max, 20-at sebez egy ellenség</code>
+Játékos életének lekérdezése: <code>Player.getHealth() // 100 a max, 20-at sebez egy ellenség</code>
