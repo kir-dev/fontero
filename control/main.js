@@ -61,9 +61,6 @@ function parse(str) {
             eval(str);
         }
 
-        Display.initMap(skin, Map.map);
-
-
         if (i > 25) {
             clearInterval(loop);
         }

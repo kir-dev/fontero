@@ -4,12 +4,16 @@ var Display = (function() {
     var imageCache = {};
     var player = {};
     var skin;
+    var drawInterval;
 
     module.setPlayer = function(message) {
         player = message;
     };
 
     module.initMap = function(s, map) {
+        clearInterval(drawInterval);
+        drawInterval = undefined;
+
         skin = s;
         cacheImage('crate', 'crate');
         cacheImage('player', 'character');
@@ -18,16 +22,23 @@ var Display = (function() {
         cacheImage('heart', 'heart');
         cacheImage('ruby', 'coin');
         cacheImage('bg', 'bg');
+        cacheImage('bg_cloud', 'bg_cloud');
+        cacheImage('bg_secondary', 'bg_secondary');
+        cacheImage('bg_front', 'bg_front');
         cacheImage('gate', 'gate');
         cacheImage('chest', 'chest');
-        $('#myBar').animate({
-            width: "100%"
-        }, 1010).animate({ height: "0px" }, 50 );
+
         setTimeout(function (){
-            draw(map)
-        }, 1000);
+            if(drawInterval === undefined)
+                drawInterval = setInterval(function() {
+                    draw(map)
+                }, 50);
+        }, 500);
 
     };
+    var dx = 2;
+    var x = 0;
+
     function draw(map) {
         var canvas = document.getElementById('playcanvas');
         var context = canvas.getContext('2d');
@@ -36,9 +47,29 @@ var Display = (function() {
 
         context.drawImage(imageCache.bg, 0, 0, canvas.width, canvas.height);
 
+        // reset, start from beginning
+        if (x > canvas.width) {
+            x = -canvas.width + x;
+        }
+        // draw additional image1
+        if (x > 0) {
+            context.drawImage(imageCache.bg_cloud, -canvas.width + x, 0, canvas.width, canvas.height);
+        }
+        // draw additional image2
+        if (x - canvas.width > 0) {
+            context.drawImage(imageCache.bg_cloud, -canvas.width * 2 + x, 0, canvas.width, canvas.height);
+        }
+        // amount to move
+        x += dx;
+
+        // draw image
+        context.drawImage(imageCache.bg_cloud, x, 0, canvas.width, canvas.height);
+
+
         for ( var i = 1; i <= Player.health / 20; i++){
             context.drawImage(imageCache.heart, (i*40), 10, 50, 50);
         }
+        context.drawImage(imageCache.bg_secondary, 0, 0, canvas.width, canvas.height);
 
         map.forEach(function(element) {
             var img = new Image();
@@ -68,6 +99,7 @@ var Display = (function() {
             }
         });
 
+        context.drawImage(imageCache.bg_front, 0, 0, canvas.width, canvas.height);
     }
 
    /* function animate(myRectangle, canvas, context, startTime) {
@@ -95,7 +127,7 @@ var Display = (function() {
 
 
     function translateImage(coord) {
-        return (coord) * 128;
+        return (coord) * 92;
     }
 
     function cacheImage(name, longName) {

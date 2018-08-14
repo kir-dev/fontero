@@ -17,7 +17,7 @@
    enable-background="new 0 0 4042.9 792"
    xml:space="preserve"
    id="svg11573"
-   sodipodi:docname="bg.svg"
+   sodipodi:docname="bg_cloud.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
    id="metadata11579"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -70,15 +70,15 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="956"
-   inkscape:window-height="1053"
+   inkscape:window-width="1920"
+   inkscape:window-height="1080"
    id="namedview11575"
    showgrid="false"
-   inkscape:zoom="0.47573041"
-   inkscape:cx="4558.3691"
-   inkscape:cy="-16.264403"
-   inkscape:window-x="960"
-   inkscape:window-y="25"
+   inkscape:zoom="0.3363922"
+   inkscape:cx="2225.5461"
+   inkscape:cy="332.95482"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
    inkscape:window-maximized="0"
    inkscape:current-layer="svg11573" />
 <pattern
@@ -13383,699 +13383,1590 @@
 		</g>
 	</g>
 </g>
-<rect
-   style="fill:#ba904c"
-   id="rect6333"
-   height="97.900002"
-   width="4041.8999"
-   y="693.29999"
-   x="0.60000002" /><path
-   inkscape:connector-curvature="0"
-   style="fill:url(#SVGID_15_)"
-   id="path6342"
-   d="m 0,0 v 432.5 c 0.6,38 0.8,101.7 0.7,162.2 0,0.6 0,1.1 0,1.7 H 4040 c 0,-86.2 0.7,-170.4 2,-170.4 0.3,0 0.6,0 0.9,0 V 0 Z" /><path
-   style="opacity:0.5;fill:#d9862e"
-   inkscape:connector-curvature="0"
-   id="path6344"
-   d="m 3901.9,395.4 c -152,-4.7 -288.6,11.9 -431.9,23 -73.7,5.7 -145.9,7.8 -222.1,8.3 -83.6,0.6 -163.2,3.4 -245.1,8.1 -69.7,4 -140.7,7.9 -212.2,6.3 -74.5,-1.7 -148.7,-5.3 -222.5,-8.6 -152.5,-6.8 -305.7,-12.9 -460,-7.5 -78.3,2.7 -157,2 -235.6,0.8 -81.3,-1.2 -162.3,-1.9 -243.7,-1.4 -161.4,1 -323.8,4.5 -484.7,-0.7 -41.8,-1.4 -83.2,-3.4 -125.3,-3.6 -37.8,-0.1 -75.4,0.5 -113.1,1.5 -79.3,2 -157.9,4.3 -237.5,2.5 -76.5,-1.7 -152.2,-5.3 -228.3,-8.1 -38,-1.4 -78,-3.5 -116.4,-2.7 -28.8,0.6 -57,2.3 -84.8,4.5 C 167.2,423.4 84.5,434 6,433.8 v 162.8 h 4034.7 v -196 c -47.4,-1.6 -94.5,-3.8 -138.8,-5.2 z" /><path
-   style="opacity:0.5;fill:#d9862e"
-   inkscape:connector-curvature="0"
-   id="path6346"
-   d="m 4041.3,433.7 c -77.4,-0.2 -158.5,-10.5 -229,-16 -27.8,-2.2 -56.2,-3.9 -85,-4.5 -38.6,-0.8 -78.6,1.3 -116.7,2.7 -76.3,2.8 -152.1,6.4 -228.9,8.1 -79.8,1.8 -158.6,-0.5 -238.1,-2.5 -37.7,-0.9 -75.5,-1.6 -113.3,-1.5 -42.3,0.1 -83.8,2.2 -125.7,3.6 -161.3,5.2 -324.2,1.7 -486,0.7 -81.6,-0.5 -162.8,0.2 -244.4,1.4 -78.8,1.2 -157.7,1.9 -236.2,-0.8 -154.8,-5.3 -308.4,0.7 -461.2,7.5 -74,3.3 -148.4,6.9 -223.1,8.6 -71.7,1.6 -142.9,-2.3 -212.8,-6.3 -82.2,-4.7 -161.9,-7.6 -245.8,-8.1 -76.5,-0.5 -148.8,-2.5 -222.7,-8.3 -143.7,-11.2 -280.6,-27.8 -433,-23 -44.4,1.4 -91.6,3.6 -139.1,5 v 196 H 4040 c 0,-70.6 0.4,-140.1 1.3,-162.6 z" /><g
-   id="g7174">
-		<path
-   style="opacity:0.7;fill:#f5c358"
-   inkscape:connector-curvature="0"
-   id="path6875"
-   d="M 3744.1,437.5 H 0.1 c 0.2,12.2 0.3,26.6 0.4,42.5 625.8,1.7 1568.5,3.3 1586.4,5.3 78.4,6 170.6,9.6 265.2,10.7 701.2,3.6 1353.7,21.5 2095.2,8.4 47.5,-25.8 -126.1,-44.2 -203.2,-66.9 z" />
-		<g
-   id="g6887">
-			<path
-   style="opacity:0.5;fill:#dfa62d"
-   inkscape:connector-curvature="0"
-   id="path6877"
-   d="M 4041.2,437.5 H 0.1 c 0.5,38.5 0.7,99.4 0.7,157.3 0,36.4 0,74 -0.2,106.2 0.1,13 0.1,26.9 0.2,41.2 h 4040 c -1.2,-78.2 -1.1,-257.7 0.4,-304.7 z" />
-			<path
-   style="opacity:0.5;fill:#dfa62d"
-   inkscape:connector-curvature="0"
-   id="path6879"
-   d="m 0.1,437.5 c 0.1,4.9 0.1,10.2 0.2,15.8 154.3,1.3 308.6,3.8 462.4,6.5 205.1,3.6 410.2,7.5 615.6,9 200.5,1.5 400.7,-0.1 601.1,-1.7 280.6,-2.2 561.3,-4.8 841.8,-8 280,-3.2 558.4,-6.7 838.6,-3.8 227.1,2.3 454,6.2 680.8,9.9 0.2,-11.5 0.3,-20.9 0.5,-27.7 z" />
-			<path
-   style="opacity:0.4;fill:#f5c358"
-   inkscape:connector-curvature="0"
-   id="path6881"
-   d="M 4041.2,435.8 H 3856 c 49.8,14.6 139.8,27.5 184.5,41.7 0.2,-18.3 0.4,-32.8 0.7,-41.7 z" />
-			<path
-   style="opacity:0.4;fill:#f5c358"
-   inkscape:connector-curvature="0"
-   id="path6883"
-   d="m 4040.3,503 c -733.7,12.5 -1381.1,-5.1 -2076.3,-8.7 -94.6,-1.2 -186.9,-4.8 -265.2,-10.7 -19,-2.1 -1077.8,-3.9 -1698.3,-5.6 0.2,29.7 0.3,64.7 0.3,99.6 345.8,7.3 828.9,13.8 988,17.1 1055.3,22.2 1908.2,61.6 3051.2,35 -0.1,-43.6 0,-89.6 0.3,-126.7 z" />
-			<path
-   style="opacity:0.2;fill:#f5c358"
-   inkscape:connector-curvature="0"
-   id="path6885"
-   d="m 4040,628.7 c -14.2,0.4 -28.3,0.8 -42.3,1.1 C 2819.5,659.7 1953.6,619.1 877,596.4 732.6,593.4 328.8,587.8 0.8,581.3 c 0,4.5 0,9 0,13.5 0,36.4 0,73.9 -0.2,106.2 0.1,13 0.1,26.9 0.2,41.2 h 4040 c -0.5,-28.3 -0.8,-69.8 -0.8,-113.5 z" />
-		</g>
-		<g
-   id="g7109">
+<g
+   id="g6873">
+		<defs
+   id="defs6353">
+			<filter
+   height="33.799999"
+   width="343.60001"
+   y="200.3"
+   x="1610.2"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter">
+				<feFlood
+   id="feFlood6348"
+   result="back" />
+				<feBlend
+   id="feBlend6350"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6374"
+   height="33.8"
+   width="343.6"
+   y="200.3"
+   x="1610.2"
+   maskUnits="userSpaceOnUse">
 			<g
-   id="g6907">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path6889"
-   d="m 1170.2,670 c 0,0 13.2,1.9 27.4,2.3 14.2,0.5 22.2,0.6 -50.9,1.5 -72.9,0.9 -101.9,0.9 -112,-0.5 -10.3,-1.3 25.2,-3 135.5,-3.3 z" />
-				<g
-   id="g6905">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6891"
-   d="m 1171,669.5 c 0,0 -2.2,-2.2 -22.8,-3.3 -20.8,-1.1 -12.3,-1.4 -28.8,-1.2 -16.6,0.2 -46.7,0.2 -60.4,2.3 -13.6,2 -15.6,2.3 -10.8,3.8 4.9,1.5 23.2,2 40,2.1 16.7,0.1 24.9,-0.1 43.7,-0.3 18.7,-0.2 36.6,-0.8 39.1,-3.4 z" />
+   style="filter:url(#Adobe_OpacityMaskFilter)"
+   id="g6372">
+				<defs
+   id="defs6360">
+					<filter
+   height="33.799999"
+   width="343.60001"
+   y="200.3"
+   x="1610.2"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_1_">
+						<feFlood
+   id="feFlood6355"
+   result="back" />
+						<feBlend
+   id="feBlend6357"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_16_"
+   height="33.8"
+   width="343.6"
+   y="200.3"
+   x="1610.2"
+   maskUnits="userSpaceOnUse">
 					<g
-   id="g6895">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6893"
-   d="m 1052.2,668.4 c 3.1,0.9 20,3 30.5,2.5 11.6,-0.6 15.4,-0.7 29.6,0.5 14.1,1.3 19.2,1.1 48.4,-0.6 4.2,-0.3 7.3,-0.5 9.5,-0.7 -4.2,2.1 -20.9,2.7 -38.3,2.9 -18.8,0.2 -27.1,0.4 -43.7,0.3 -16.8,-0.1 -35.1,-0.6 -40,-2.1 -3.9,-1.2 -3.3,-1.6 4,-2.8 z" />
+   style="filter:url(#Adobe_OpacityMaskFilter_1_)"
+   id="g6362">
 					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g6899">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path6897"
-   d="m 1141.3,667.1 c -11.1,0.7 -2.6,1.2 -34,1.3 -29.6,0.1 -31.1,-1.1 -39.2,-2 15.3,-1.1 37.9,-1.1 51.4,-1.3 16.5,-0.2 8,0.1 28.8,1.2 0.5,0 1,0.1 1.5,0.1 1.9,0.3 0.2,0.2 -8.5,0.7 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g6903">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path6901"
-   d="m 1058.7,671.8 c 12,1.1 24.5,1.3 66.2,1 14.7,-0.1 25.2,-0.4 33,-0.7 -7.2,0.5 -16.5,0.7 -26,0.9 -18.8,0.2 -27.1,0.4 -43.7,0.3 -16.8,-0.1 -35.1,-0.6 -40,-2.1 -2.3,-0.7 -3,-1.1 -1.7,-1.6 2.2,0.7 6,1.7 12.2,2.2 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g6927">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path6909"
-   d="m 3256.2,577.2 c 0,0 10.3,1.9 25.2,2.3 15,0.4 23.9,0.6 -61.4,1.5 -85.1,0.9 -118,0.9 -126.1,-0.4 -8.1,-1.4 36.4,-3.1 162.3,-3.4 z" />
-				<g
-   id="g6925">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6911"
-   d="m 3258.2,576.7 c 0,0 2.9,-2.2 -17.7,-3.3 -20.7,-1.1 -10.5,-1.4 -29.7,-1.2 -19.3,0.2 -53.5,0.2 -74,2.2 -20.6,2 -23.7,2.3 -21.8,3.8 1.8,1.5 21.2,2 40,2.1 18.9,0.1 28.5,-0.1 50.4,-0.3 21.9,-0.1 43.7,-0.7 52.8,-3.3 z" />
-					<g
-   id="g6915">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6913"
-   d="m 3126.4,575.6 c 1.3,0.9 15.1,3 28.4,2.5 14.7,-0.6 19.2,-0.7 32.2,0.5 13,1.3 19.2,1.1 56.5,-0.6 5.3,-0.2 9.5,-0.5 12.6,-0.7 -10.1,2.1 -30.4,2.7 -50.8,2.9 -21.9,0.2 -31.6,0.4 -50.4,0.3 -18.8,-0.1 -38.2,-0.6 -40,-2.1 -1.4,-1.2 0.3,-1.7 11.5,-2.8 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g6919">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path6917"
-   d="m 3230.6,574.3 c -14.3,0.7 -5.9,1.2 -41.9,1.3 -33.9,0.2 -32.6,-1.1 -39.4,-2 20.1,-1.1 45.8,-1.2 61.5,-1.3 19.3,-0.2 9,0.1 29.7,1.2 0.5,0 1,0.1 1.5,0.1 1.3,0.3 -0.2,0.2 -11.4,0.7 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g6923">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path6921"
-   d="m 3125.2,579 c 10.8,1.1 24.5,1.3 72.6,1 16.9,-0.1 29.7,-0.4 39.2,-0.7 -9.4,0.5 -20.4,0.7 -31.6,0.9 -21.9,0.2 -31.6,0.4 -50.4,0.3 -18.8,-0.1 -38.2,-0.6 -40,-2.1 -0.9,-0.7 -0.6,-1.1 2.1,-1.6 0.4,0.7 2.4,1.6 8.1,2.2 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g6947">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path6929"
-   d="m 3670.6,677.1 c 0,0 3.7,1.1 11,1.4 7.4,0.3 11.9,0.3 -33.1,0.9 -44.9,0.5 -62,0.5 -64.9,-0.3 -3.1,-0.8 21.6,-1.8 87,-2 z" />
-				<g
-   id="g6945">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6931"
-   d="m 3672.1,676.8 c 0,0 3.4,-1.3 -6.3,-1.9 -9.7,-0.6 -4.1,-0.8 -14.3,-0.7 -10.2,0.1 -27.9,0.1 -40.4,1.3 -12.5,1.2 -14.3,1.4 -14.8,2.3 -0.4,0.9 9.1,1.2 18.8,1.2 9.7,0 14.8,-0.1 26.4,-0.2 11.7,-0.1 23.6,-0.5 30.6,-2 z" />
-					<g
-   id="g6935">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6933"
-   d="m 3605,676.1 c -0.2,0.5 5,1.8 12.4,1.5 8.1,-0.4 10.5,-0.4 16.2,0.3 5.6,0.7 8.9,0.7 29.8,-0.4 3,-0.1 5.3,-0.3 7.2,-0.4 -7.1,1.3 -18.1,1.6 -28.9,1.7 -11.6,0.1 -16.7,0.2 -26.4,0.2 -9.7,-0.1 -19.3,-0.4 -18.8,-1.2 0.3,-0.7 1.6,-1 8.5,-1.7 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g6939">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path6937"
-   d="m 3660,675.4 c -8.1,0.4 -4.2,0.7 -22.9,0.8 -17.7,0.1 -15.9,-0.7 -18.6,-1.2 11.5,-0.7 24.7,-0.7 33.1,-0.8 10.1,-0.1 4.5,0.1 14.3,0.7 0.3,0 0.5,0 0.7,0 0.3,0.3 -0.4,0.2 -6.6,0.5 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g6943">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path6941"
-   d="m 3601.1,678.2 c 4.6,0.7 11.6,0.8 36.7,0.6 8.9,-0.1 15.8,-0.2 21,-0.5 -5.3,0.3 -11.3,0.5 -17.1,0.5 -11.6,0.1 -16.7,0.2 -26.4,0.2 -9.7,-0.1 -19.3,-0.4 -18.8,-1.2 0.2,-0.4 0.8,-0.7 2.7,-1 -0.7,0.5 -0.5,1 1.9,1.4 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g6967">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path6949"
-   d="m 2664.9,677.6 c 0,0 3.7,0.8 9,1 5.3,0.2 8.5,0.2 -21.9,0.6 -30.4,0.4 -42.1,0.4 -44.9,-0.2 -2.9,-0.5 13,-1.3 57.8,-1.4 z" />
-				<g
-   id="g6965">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6951"
-   d="m 2665.6,677.4 c 0,0 1.1,-0.9 -6.2,-1.3 -7.3,-0.4 -3.7,-0.6 -10.5,-0.5 -6.9,0.1 -19,0.1 -26.4,0.9 -7.3,0.8 -8.5,0.9 -7.9,1.5 0.6,0.6 7.5,0.8 14.2,0.9 6.7,0 10.1,0 17.9,-0.1 7.9,-0.1 15.7,-0.3 18.9,-1.4 z" />
-					<g
-   id="g6955">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6953"
-   d="m 2618.8,677 c 0.4,0.4 5.3,1.2 10,1 5.3,-0.3 6.8,-0.3 11.5,0.2 4.6,0.5 6.7,0.4 20.1,-0.3 1.9,-0.1 3.4,-0.2 4.5,-0.3 -3.6,0.9 -10.8,1.1 -18.1,1.2 -7.8,0.1 -11.3,0.2 -17.9,0.1 -6.7,0 -13.6,-0.3 -14.2,-0.9 -0.6,-0.4 0.1,-0.6 4.1,-1 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g6959">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path6957"
-   d="m 2655.9,676.5 c -5.1,0.3 -2.2,0.5 -15,0.5 -12,0.1 -11.5,-0.4 -13.9,-0.8 7.1,-0.5 16.3,-0.5 21.9,-0.6 6.8,-0.1 3.2,0 10.5,0.5 0.2,0 0.3,0 0.5,0 0.5,0.2 0,0.1 -4,0.4 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g6963">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path6961"
-   d="m 2618.2,678.4 c 3.9,0.4 8.8,0.5 25.9,0.4 6,-0.1 10.6,-0.2 13.9,-0.3 -3.4,0.2 -7.3,0.3 -11.3,0.3 -7.8,0.1 -11.3,0.2 -17.9,0.1 -6.7,0 -13.6,-0.3 -14.2,-0.9 -0.2,-0.3 -0.1,-0.5 0.9,-0.7 0.1,0.5 0.7,0.9 2.7,1.1 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g6987">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path6969"
-   d="m 2037.9,568.9 c 0,0 5.4,0.8 12,1 6.4,0.2 10.2,0.2 -24.5,0.6 -34.6,0.4 -48.2,0.4 -52.4,-0.2 -4.1,-0.5 13.1,-1.2 64.9,-1.4 z" />
-				<g
-   id="g6985">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6971"
-   d="m 2038.3,568.7 c 0,0 -0.2,-0.9 -9.4,-1.3 -9.2,-0.5 -5.1,-0.6 -12.9,-0.5 -7.8,0.1 -21.9,0.1 -29.1,0.9 -7.2,0.8 -8.3,1 -6.6,1.6 1.6,0.6 10.1,0.8 17.9,0.9 7.8,0 11.7,0 20.6,-0.1 8.9,-0.2 17.5,-0.4 19.5,-1.5 z" />
-					<g
-   id="g6975">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6973"
-   d="m 1983.3,568.3 c 1.1,0.4 8.2,1.2 13.3,1 5.7,-0.3 7.4,-0.3 13.7,0.2 6.1,0.5 8.5,0.4 22.9,-0.3 2,-0.1 3.6,-0.2 4.7,-0.3 -2.8,0.9 -10.8,1.1 -19.1,1.2 -8.9,0.1 -12.8,0.2 -20.6,0.1 -7.8,0 -16.2,-0.3 -17.9,-0.9 -1.3,-0.4 -0.8,-0.6 3,-1 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g6979">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path6977"
-   d="m 2025.4,567.8 c -5.5,0.3 -1.7,0.5 -16.4,0.5 -13.8,0.1 -14.1,-0.4 -17.5,-0.8 7.6,-0.5 18.1,-0.5 24.5,-0.5 7.8,-0.1 3.7,0 12.9,0.5 0.2,0 0.5,0 0.7,0 0.8,0.1 0.1,0 -4.2,0.3 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g6983">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path6981"
-   d="m 1984.9,569.7 c 5.2,0.5 11,0.5 30.7,0.4 6.9,0 11.9,-0.2 15.7,-0.3 -3.5,0.2 -8,0.3 -12.5,0.3 -8.9,0.1 -12.8,0.2 -20.6,0.1 -7.8,0 -16.2,-0.3 -17.9,-0.9 -0.8,-0.3 -0.9,-0.5 -0.1,-0.7 0.7,0.5 2.1,0.8 4.7,1.1 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g7007">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path6989"
-   d="m 2293.7,610.4 c 0,0 4.7,0.8 10.9,0.9 6,0.2 9.5,0.2 -23.5,0.6 -33,0.4 -45.9,0.4 -49.5,-0.2 -3.7,-0.5 13,-1.2 62.1,-1.3 z" />
-				<g
-   id="g7005">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6991"
-   d="m 2294.4,610.1 c 0,0 0.3,-0.9 -8.2,-1.3 -8.5,-0.4 -4.6,-0.6 -12,-0.5 -7.4,0.1 -20.7,0.1 -28.1,0.9 -7.2,0.8 -8.4,0.9 -7.1,1.6 1.2,0.6 9.1,0.8 16.5,0.9 7.4,0 11.1,0 19.6,-0.1 8.5,-0.2 16.7,-0.4 19.3,-1.5 z" />
-					<g
-   id="g6995">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path6993"
-   d="m 2242.4,609.7 c 0.8,0.4 7,1.2 12.1,1 5.5,-0.3 7.2,-0.3 12.8,0.2 5.6,0.5 7.9,0.5 21.8,-0.2 2,-0.1 3.5,-0.2 4.6,-0.3 -3.1,0.9 -10.8,1.1 -18.7,1.2 -8.5,0.1 -12.2,0.2 -19.6,0.1 -7.4,0 -15.2,-0.3 -16.5,-0.9 -0.9,-0.5 -0.4,-0.6 3.5,-1.1 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g6999">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path6997"
-   d="m 2282.6,609.2 c -5.4,0.3 -1.9,0.5 -15.9,0.5 -13.1,0.1 -13.1,-0.4 -16.1,-0.8 7.4,-0.4 17.4,-0.5 23.5,-0.5 7.4,-0.1 3.6,0 12,0.5 0.2,0 0.4,0 0.6,0 0.7,0.1 0.1,0 -4.1,0.3 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g7003">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path7001"
-   d="m 2243.2,611.1 c 4.7,0.5 10.2,0.5 28.9,0.4 6.6,0 11.4,-0.2 15,-0.3 -3.4,0.2 -7.7,0.3 -12,0.4 -8.5,0.1 -12.2,0.2 -19.6,0.1 -7.4,0 -15.2,-0.3 -16.5,-0.9 -0.6,-0.3 -0.6,-0.5 0.3,-0.7 0.4,0.4 1.5,0.8 3.9,1 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g7027">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path7009"
-   d="m 3295.9,514.8 c 0,0 4.9,0.8 11.6,1 6.7,0.2 10.6,0.2 -26.8,0.6 -37.5,0.4 -52,0.4 -55.8,-0.2 -3.8,-0.6 15.6,-1.3 71,-1.4 z" />
-				<g
-   id="g7025">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7011"
-   d="m 3296.7,514.6 c 0,0 0.9,-0.9 -8.4,-1.3 -9.3,-0.4 -4.8,-0.6 -13.2,-0.5 -8.5,0.1 -23.5,0.1 -32.2,0.9 -8.7,0.8 -10,0.9 -9.1,1.6 1,0.6 9.7,0.8 18,0.9 8.3,0 12.5,0 22.2,-0.1 9.7,-0.2 19.2,-0.5 22.7,-1.5 z" />
-					<g
-   id="g7015">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7013"
-   d="m 3238.5,514.1 c 0.7,0.4 7.1,1.2 12.9,1 6.4,-0.3 8.3,-0.3 14.3,0.2 5.9,0.5 8.6,0.4 24.8,-0.3 2.3,-0.1 4.1,-0.2 5.4,-0.3 -4.1,0.9 -12.9,1.1 -21.8,1.2 -9.7,0.1 -13.9,0.2 -22.2,0.1 -8.3,0 -17,-0.3 -18,-0.9 -0.8,-0.4 -0.1,-0.5 4.6,-1 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g7019">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path7017"
-   d="m 3284.2,513.6 c -6.2,0.3 -2.4,0.5 -18.2,0.6 -14.9,0 -14.5,-0.5 -17.6,-0.8 8.6,-0.5 19.9,-0.5 26.8,-0.6 8.4,-0.1 3.9,0 13.2,0.5 0.3,0 0.4,0 0.7,0 0.6,0.1 -0.1,0.1 -4.9,0.3 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g7023">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path7021"
-   d="m 3238.5,515.5 c 5,0.4 11,0.5 32.2,0.4 7.5,-0.1 13.1,-0.2 17.2,-0.3 -4,0.2 -8.9,0.3 -13.8,0.3 -9.7,0.1 -13.9,0.2 -22.2,0.1 -8.3,0 -17,-0.3 -18,-0.9 -0.4,-0.3 -0.3,-0.5 0.8,-0.7 0.3,0.5 1.2,0.9 3.8,1.1 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g7047">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path7029"
-   d="m 2449.3,525.9 c 0,0 5.6,0.8 12.4,1 6.7,0.2 10.7,0.2 -26,0.6 -36.6,0.4 -50.9,0.4 -55.2,-0.2 -4.2,-0.6 14.2,-1.3 68.8,-1.4 z" />
-				<g
-   id="g7045">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7031"
-   d="m 2449.9,525.7 c 0,0 0.1,-0.9 -9.5,-1.3 -9.6,-0.4 -5.3,-0.6 -13.5,-0.5 -8.2,0.1 -23,0.1 -30.9,0.9 -7.8,0.8 -9,1 -7.5,1.6 1.6,0.6 10.4,0.8 18.5,0.9 8.3,0 12.4,0 21.8,-0.1 9.4,-0.2 18.6,-0.4 21.1,-1.5 z" />
-					<g
-   id="g7035">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7033"
-   d="m 2392.1,525.2 c 1,0.4 8.2,1.2 13.6,1 6,-0.2 8,-0.3 14.3,0.2 6.3,0.5 8.9,0.4 24.2,-0.3 2.2,-0.1 3.8,-0.2 5.1,-0.3 -3.2,0.9 -11.7,1.1 -20.5,1.2 -9.4,0.1 -13.5,0.2 -21.8,0.1 -8.2,0 -17,-0.3 -18.5,-0.9 -1.2,-0.3 -0.7,-0.5 3.6,-1 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g7039">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path7037"
-   d="m 2436.6,524.7 c -5.8,0.3 -1.9,0.5 -17.4,0.5 -14.7,0.1 -14.8,-0.4 -18.2,-0.8 8.2,-0.4 19.2,-0.5 26,-0.5 8.2,-0.1 4,0 13.5,0.5 0.2,0 0.4,0 0.7,0 0.7,0.2 0,0.1 -4.6,0.3 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g7043">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path7041"
-   d="m 2393.3,526.7 c 5.3,0.4 11.4,0.5 32.2,0.4 7.3,0 12.7,-0.2 16.6,-0.3 -3.8,0.2 -8.5,0.3 -13.3,0.4 -9.4,0.1 -13.5,0.2 -21.8,0.1 -8.2,0 -17,-0.3 -18.5,-0.9 -0.7,-0.3 -0.8,-0.5 0.1,-0.7 0.6,0.3 2,0.7 4.7,1 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g7067">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path7049"
-   d="m 2383.6,475.6 c 0,0 3.9,0.5 8.4,0.6 4.6,0.1 7.2,0.1 -17.2,0.4 -24.3,0.2 -33.8,0.2 -36.8,-0.1 -2.9,-0.4 9.3,-0.8 45.6,-0.9 z" />
-				<g
-   id="g7065">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7051"
-   d="m 2384,475.5 c 0,0 -0.1,-0.6 -6.6,-0.8 -6.4,-0.3 -3.7,-0.4 -9.1,-0.3 -5.5,0.1 -15.3,0.1 -20.3,0.6 -5.1,0.5 -5.9,0.6 -4.7,1 1.2,0.4 7,0.5 12.5,0.5 5.4,0 8.2,0 14.5,-0.1 6.2,-0.1 12.2,-0.3 13.7,-0.9 z" />
-					<g
-   id="g7055">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7053"
-   d="m 2345.4,475.2 c 0.7,0.2 5.7,0.8 9.3,0.6 3.9,-0.1 5.2,-0.2 9.6,0.1 4.3,0.3 6,0.3 16,-0.2 1.4,-0.1 2.6,-0.1 3.3,-0.2 -1.9,0.5 -7.5,0.7 -13.4,0.8 -6.3,0.1 -9,0.1 -14.5,0.1 -5.5,0 -11.3,-0.2 -12.5,-0.5 -0.9,-0.3 -0.6,-0.4 2.2,-0.7 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g7059">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path7057"
-   d="m 2374.9,474.9 c -3.8,0.2 -1.2,0.3 -11.5,0.3 -9.7,0 -9.9,-0.3 -12.2,-0.5 5.3,-0.3 12.7,-0.3 17.1,-0.3 5.4,-0.1 2.7,0 9.1,0.3 0.1,0 0.4,0 0.5,0 0.5,0.1 0,0 -3,0.2 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g7063">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path7061"
-   d="m 2346.5,476.1 c 3.6,0.3 7.7,0.3 21.5,0.2 4.8,0 8.3,-0.1 11,-0.2 -2.5,0.1 -5.6,0.2 -8.8,0.2 -6.3,0.1 -9,0.1 -14.5,0.1 -5.5,0 -11.3,-0.2 -12.5,-0.5 -0.6,-0.2 -0.6,-0.3 -0.1,-0.4 0.5,0.2 1.5,0.4 3.4,0.6 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g7087">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path7069"
-   d="m 2792.7,453.2 c 0,0 3.8,0.5 8.4,0.6 4.7,0.1 7.4,0.1 -17.7,0.4 -25.1,0.2 -34.8,0.2 -37.8,-0.1 -2.7,-0.4 9.9,-0.9 47.1,-0.9 z" />
-				<g
-   id="g7085">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7071"
-   d="m 2793.1,453 c 0,0 0.1,-0.6 -6.4,-0.8 -6.5,-0.3 -3.6,-0.4 -9.2,-0.3 -5.7,0 -15.8,0 -21.2,0.6 -5.4,0.5 -6.2,0.6 -5.1,1 1,0.4 7,0.5 12.6,0.5 5.7,0 8.5,0 14.9,-0.1 6.5,0 12.7,-0.2 14.4,-0.9 z" />
-					<g
-   id="g7075">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7073"
-   d="m 2753.7,452.7 c 0.6,0.2 5.5,0.8 9.2,0.6 4.2,-0.2 5.4,-0.2 9.7,0.1 4.3,0.3 6.1,0.3 16.6,-0.2 1.5,-0.1 2.6,-0.1 3.4,-0.2 -2.2,0.6 -8,0.7 -14,0.8 -6.5,0.1 -9.3,0.1 -14.9,0.1 -5.7,0 -11.6,-0.2 -12.6,-0.5 -0.7,-0.2 -0.4,-0.4 2.6,-0.7 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g7079">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path7077"
-   d="m 2784.1,452.4 c -4,0.2 -1.3,0.3 -12,0.3 -10,0 -10,-0.3 -12.3,-0.5 5.5,-0.3 13.1,-0.3 17.7,-0.3 5.5,-0.1 2.7,0 9.2,0.3 0.2,0 0.3,0 0.5,0 0.5,0.1 0,0.1 -3.1,0.2 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g7083">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path7081"
-   d="m 2754.4,453.6 c 3.6,0.3 7.8,0.3 22,0.3 5,0 8.7,-0.1 11.4,-0.2 -2.6,0.1 -5.8,0.2 -9.1,0.2 -6.5,0.1 -9.3,0.1 -14.9,0.1 -5.7,0 -11.6,-0.2 -12.6,-0.5 -0.5,-0.2 -0.5,-0.3 0.1,-0.4 0.4,0.2 1.3,0.4 3.1,0.5 z" />
-					</g>
-				</g>
-			</g>
-			<g
-   id="g7107">
-				<path
-   style="opacity:0.41000001;fill:#8b5f2b"
-   inkscape:connector-curvature="0"
-   id="path7089"
-   d="m 3432.6,443 c 0,0 3.5,0.5 8.2,0.6 4.6,0.1 7.3,0.1 -18.2,0.4 -25.4,0.2 -35.3,0.2 -38,-0.1 -2.7,-0.4 10.4,-0.9 48,-0.9 z" />
-				<g
-   id="g7105">
-					<path
-   style="fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7091"
-   d="m 3433.2,442.8 c 0,0 0.4,-0.5 -6,-0.8 -6.4,-0.3 -3.4,-0.4 -9.1,-0.3 -5.7,0 -15.9,0 -21.7,0.6 -5.8,0.5 -6.6,0.6 -5.9,1 0.8,0.4 6.8,0.5 12.5,0.5 5.6,0 8.6,0 15,-0.1 6.6,-0.1 13,-0.2 15.2,-0.9 z" />
-					<g
-   id="g7095">
-						<path
-   style="opacity:0.38999999;fill:#e7c381"
-   inkscape:connector-curvature="0"
-   id="path7093"
-   d="m 3393.5,442.5 c 0.5,0.2 5.1,0.8 8.9,0.6 4.3,-0.2 5.6,-0.2 9.8,0.1 4.2,0.3 6,0.3 16.8,-0.2 1.5,-0.1 2.8,-0.1 3.6,-0.2 -2.5,0.5 -8.5,0.7 -14.6,0.7 -6.4,0.1 -9.4,0.1 -15,0.1 -5.7,0 -11.7,-0.2 -12.5,-0.5 -0.7,-0.2 -0.2,-0.3 3,-0.6 z" />
-					</g>
-					<g
-   style="opacity:0.32000002"
-   id="g7099">
-						<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path7097"
-   d="m 3424.4,442.2 c -4.2,0.2 -1.5,0.3 -12.2,0.3 -10.2,0 -10,-0.3 -12.2,-0.5 5.8,-0.3 13.5,-0.3 18.1,-0.3 5.7,-0.1 2.8,0 9.1,0.3 0.2,0 0.3,0 0.5,0 0.4,0.1 -0.1,0.1 -3.3,0.2 z" />
-					</g>
-					<g
-   style="opacity:0.73000004"
-   id="g7103">
-						<path
-   style="fill:#a08a60"
-   inkscape:connector-curvature="0"
-   id="path7101"
-   d="m 3393.7,443.4 c 3.5,0.3 7.6,0.3 22.1,0.2 5,0 8.8,-0.1 11.6,-0.2 -2.7,0.1 -6,0.2 -9.4,0.2 -6.4,0.1 -9.4,0.1 -15,0.1 -5.7,0 -11.7,-0.2 -12.5,-0.5 -0.4,-0.2 -0.4,-0.3 0.3,-0.4 0.4,0.2 1.1,0.5 2.9,0.6 z" />
-					</g>
-				</g>
-			</g>
-		</g>
-		<linearGradient
-   y2="444.6264"
-   x2="1524.9208"
-   y1="917.45142"
-   x1="1524.9208"
+				</mask>
+				
+					<radialGradient
    gradientUnits="userSpaceOnUse"
-   id="SVGID_61_">
+   gradientTransform="matrix(1.3838,0,0,1.258,-707.8722,-232.2806)"
+   r="434.15619"
+   cy="-63.165501"
+   cx="1768.5767"
+   id="SVGID_17_">
+					<stop
+   id="stop6365"
+   style="stop-color:#000000"
+   offset="0.9152" />
+					<stop
+   id="stop6367"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+				</radialGradient>
+				<path
+   style="fill:url(#SVGID_17_)"
+   inkscape:connector-curvature="0"
+   id="path6370"
+   d="m 1693.9,214.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 -0.1,-0.1 -162.2,-0.7 16.1,-16.6 z"
+   mask="url(#SVGID_16_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="379.7215"
+   x2="1782.0527"
+   y1="14.0979"
+   x1="1782.0527"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_18_">
 			<stop
-   id="stop7111"
-   style="stop-color:#915826"
-   offset="0" />
+   id="stop6376"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
 			<stop
-   id="stop7113"
-   style="stop-color:#B96D43"
-   offset="0.4948" />
-			<stop
-   id="stop7115"
-   style="stop-color:#C8986A"
+   id="stop6378"
+   style="stop-color:#78C4D7"
    offset="1" />
 		</linearGradient>
 		<path
    inkscape:connector-curvature="0"
-   style="opacity:0.4;fill:url(#SVGID_61_)"
-   id="path7118"
-   d="m 2849.5,549.1 c -80.3,-1.1 -160.5,-2.6 -240.9,-3.2 -189.6,-1.6 -379.4,-1.4 -569.1,-1.4 -168,0 -335.9,-0.1 -503.9,-0.9 -164.4,-0.8 -328.4,-3.1 -492.6,-4.8 -303.4,-3.2 -612.8,0.9 -909.7,-20.1 -5.4,-0.4 -4.4,-2.3 0,-2.8 161.3,-17.9 339.1,-6.6 506.9,-7.2 101.3,-0.4 202.6,-1.9 304,-1.8 47.9,0.1 94.1,1 141.5,2.6 41,1.4 82.2,2.2 121.8,-1.3 -82.4,-16.5 -203.6,-15.7 -299.8,-15.5 -48.2,0.1 -96.4,0.7 -144.6,0.5 -68.8,-0.3 -137.9,-2.7 -206.4,-4.3 -150.9,-3.4 -302.1,-5 -452.6,-9.7 -34.6,-1.1 -69.2,-2.3 -103.7,-3.6 0.2,29.9 0.3,65.4 0.3,100.9 160.5,-1.6 321.9,1.9 482.2,3.9 122.8,1.5 246.4,2.4 369,-0.7 123.8,-3.1 247.4,-5.9 371.6,-7.4 165.4,-1.9 330.7,-1.7 496.1,-2.3 165.8,-0.6 331.1,-4.3 496.5,-7.3 75.9,-1.4 152.3,-3.2 228.4,-2.5 68.7,0.6 137.2,2.5 205.7,4 131.7,3 270.6,6.3 399.1,-4.5 -60.1,-8.9 -133.4,-9.7 -199.8,-10.6 z" />
-		<linearGradient
-   y2="444.63101"
-   x2="1454.8495"
-   y1="917.43921"
-   x1="1454.8495"
+   style="opacity:0.5;fill:url(#SVGID_18_)"
+   id="path6381"
+   d="m 1693.9,214.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 -0.1,-0.1 -162.2,-0.7 16.1,-16.6 z" />
+		<defs
+   id="defs6388">
+			<filter
+   height="46.900002"
+   width="461.70001"
+   y="81"
+   x="2072.7"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_2_">
+				<feFlood
+   id="feFlood6383"
+   result="back" />
+				<feBlend
+   id="feBlend6385"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6409"
+   height="46.9"
+   width="461.7"
+   y="81"
+   x="2072.7"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_2_)"
+   id="g6407">
+				<defs
+   id="defs6395">
+					<filter
+   height="46.900002"
+   width="461.70001"
+   y="81"
+   x="2072.7"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_3_">
+						<feFlood
+   id="feFlood6390"
+   result="back" />
+						<feBlend
+   id="feBlend6392"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_19_"
+   height="46.9"
+   width="461.7"
+   y="81"
+   x="2072.7"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_3_)"
+   id="g6397">
+					</g>
+				</mask>
+				<linearGradient
+   y2="128.4646"
+   x2="2303.5039"
+   y1="80.148697"
+   x1="2303.5039"
    gradientUnits="userSpaceOnUse"
-   id="SVGID_62_">
+   id="SVGID_20_">
+					<stop
+   id="stop6400"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6402"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_20_)"
+   inkscape:connector-curvature="0"
+   id="path6405"
+   d="m 2402.7,116 c 0,0 275.8,-15.7 28.8,-26.2 0,0 -146.6,-21 -215.8,2.1 0,0 -288.5,16.8 -46.2,25.2 0,0 42.7,16.8 107.3,3.1 0.1,0 63.6,19.9 125.9,-4.2 z"
+   mask="url(#SVGID_19_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="140.189"
+   x2="2303.5039"
+   y1="14.6955"
+   x1="2303.5039"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_21_">
 			<stop
-   id="stop7120"
-   style="stop-color:#915826"
-   offset="0" />
+   id="stop6411"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
 			<stop
-   id="stop7122"
-   style="stop-color:#B96D43"
-   offset="0.4948" />
-			<stop
-   id="stop7124"
-   style="stop-color:#C8986A"
+   id="stop6413"
+   style="stop-color:#78C4D7"
    offset="1" />
 		</linearGradient>
 		<path
    inkscape:connector-curvature="0"
-   style="opacity:0.4;fill:url(#SVGID_62_)"
-   id="path7127"
-   d="m 2659,608.3 c -95.1,-0.7 -190,1.1 -284.9,2.7 -221.3,3.8 -443.9,2.1 -665.5,3.1 -333.7,1.4 -667.4,3 -1001.2,4.3 -167.4,0.6 -334.9,1.5 -502.2,3.6 -68.3,0.8 -136.2,1.1 -204.4,1 0,12.1 0,24.2 -0.1,36 92,2.8 184.3,5.6 276.4,6.5 260.2,2.5 521.9,-1.8 781.4,-6.4 336,-6 671.7,-12.2 1008,-16.8 155.9,-2.1 312.2,-5.2 468.3,-6 123.1,-0.6 261.2,1.4 374.2,-14.7 -77.2,-10.3 -165.9,-12.7 -250,-13.3 z" />
-		<linearGradient
-   y2="444.62521"
-   x2="2798.0757"
-   y1="917.45563"
-   x1="2798.0757"
+   style="opacity:0.5;fill:url(#SVGID_21_)"
+   id="path6416"
+   d="m 2402.7,116 c 0,0 275.8,-15.7 28.8,-26.2 0,0 -146.6,-21 -215.8,2.1 0,0 -288.5,16.8 -46.2,25.2 0,0 42.7,16.8 107.3,3.1 0.1,0 63.6,19.9 125.9,-4.2 z" />
+		<defs
+   id="defs6423">
+			<filter
+   height="44"
+   width="433.5"
+   y="304.70001"
+   x="1511"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_4_">
+				<feFlood
+   id="feFlood6418"
+   result="back" />
+				<feBlend
+   id="feBlend6420"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6444"
+   height="44"
+   width="433.5"
+   y="304.7"
+   x="1511"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_4_)"
+   id="g6442">
+				<defs
+   id="defs6430">
+					<filter
+   height="44"
+   width="433.5"
+   y="304.70001"
+   x="1511"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_5_">
+						<feFlood
+   id="feFlood6425"
+   result="back" />
+						<feBlend
+   id="feBlend6427"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_22_"
+   height="44"
+   width="433.5"
+   y="304.7"
+   x="1511"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_5_)"
+   id="g6432">
+					</g>
+				</mask>
+				<linearGradient
+   y2="349.26221"
+   x2="1727.7871"
+   y1="303.9006"
+   x1="1727.7871"
    gradientUnits="userSpaceOnUse"
-   id="SVGID_63_">
+   id="SVGID_23_">
+					<stop
+   id="stop6435"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6437"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_23_)"
+   inkscape:connector-curvature="0"
+   id="path6440"
+   d="m 1821,337.5 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.2,0 59.4,18.7 118,-4 z"
+   mask="url(#SVGID_22_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="405.14828"
+   x2="1727.7871"
+   y1="6.5602002"
+   x1="1727.7871"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_24_">
 			<stop
-   id="stop7129"
-   style="stop-color:#915826"
-   offset="0" />
+   id="stop6446"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
 			<stop
-   id="stop7131"
-   style="stop-color:#B96D43"
-   offset="0.4948" />
-			<stop
-   id="stop7133"
-   style="stop-color:#C8986A"
+   id="stop6448"
+   style="stop-color:#78C4D7"
    offset="1" />
 		</linearGradient>
 		<path
    inkscape:connector-curvature="0"
-   style="opacity:0.4;fill:url(#SVGID_63_)"
-   id="path7136"
-   d="m 4040.6,467.6 c -224.1,4.2 -449.6,3.5 -674.1,1.8 -163.9,-1.2 -327.9,-2.9 -491.9,-3.4 -165.9,-0.5 -330.7,1.7 -496.2,4.7 -151.4,2.8 -303.4,6 -455.2,5.2 -119.6,-0.6 -253.6,-3.9 -367.6,8.6 65.4,8.2 142.4,7.6 212.6,7.2 86.6,-0.4 173.3,-0.3 259.9,-0.8 184.1,-1.1 368,-3.2 552.1,-4.3 486.9,-3 973.5,5.9 1460.2,7.9 0,-9.6 0.1,-18.7 0.2,-26.9 z" />
-		<linearGradient
-   y2="444.62759"
-   x2="3722.1309"
-   y1="917.44373"
-   x1="3722.1309"
+   style="fill:url(#SVGID_24_)"
+   id="path6451"
+   d="m 1821,337.5 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.2,0 59.4,18.7 118,-4 z" />
+		<defs
+   id="defs6458">
+			<filter
+   height="44"
+   width="433.5"
+   y="41.299999"
+   x="3530.6001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_6_">
+				<feFlood
+   id="feFlood6453"
+   result="back" />
+				<feBlend
+   id="feBlend6455"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6479"
+   height="44"
+   width="433.5"
+   y="41.3"
+   x="3530.6"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_6_)"
+   id="g6477">
+				<defs
+   id="defs6465">
+					<filter
+   height="44"
+   width="433.5"
+   y="41.299999"
+   x="3530.6001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_7_">
+						<feFlood
+   id="feFlood6460"
+   result="back" />
+						<feBlend
+   id="feBlend6462"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_25_"
+   height="44"
+   width="433.5"
+   y="41.3"
+   x="3530.6"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_7_)"
+   id="g6467">
+					</g>
+				</mask>
+				<linearGradient
+   y2="85.827904"
+   x2="3747.3677"
+   y1="40.466301"
+   x1="3747.3677"
    gradientUnits="userSpaceOnUse"
-   id="SVGID_64_">
+   id="SVGID_26_">
+					<stop
+   id="stop6470"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6472"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_26_)"
+   inkscape:connector-curvature="0"
+   id="path6475"
+   d="m 3840.5,74.1 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.1,-0.1 59.5,18.6 118,-4 z"
+   mask="url(#SVGID_25_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="141.714"
+   x2="3747.3677"
+   y1="-256.87411"
+   x1="3747.3677"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_27_">
 			<stop
-   id="stop7138"
-   style="stop-color:#915826"
-   offset="0" />
+   id="stop6481"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
 			<stop
-   id="stop7140"
-   style="stop-color:#B96D43"
-   offset="0.4948" />
-			<stop
-   id="stop7142"
-   style="stop-color:#C8986A"
+   id="stop6483"
+   style="stop-color:#78C4D7"
    offset="1" />
 		</linearGradient>
 		<path
    inkscape:connector-curvature="0"
-   style="opacity:0.4;fill:url(#SVGID_64_)"
-   id="path7145"
-   d="m 4040.2,518.1 c -68,1.3 -136.1,3.4 -204.2,4.2 -144.1,1.9 -289.4,1.5 -431.9,8.7 66.8,13.4 165.8,14.8 243.8,16.3 45.5,0.9 91.1,1.3 136.7,1.8 47.8,0.6 94.4,2.3 141.9,3.9 37.8,1.3 75.7,2.4 113.6,3.5 0,-13.3 0,-26.2 0.1,-38.4 z" />
-		<linearGradient
-   y2="444.62851"
-   x2="3112.5137"
-   y1="917.44519"
-   x1="3112.5137"
+   style="fill:url(#SVGID_27_)"
+   id="path6486"
+   d="m 3840.5,74.1 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.1,-0.1 59.5,18.6 118,-4 z" />
+		<defs
+   id="defs6493">
+			<filter
+   height="30.1"
+   width="362.20001"
+   y="266.79999"
+   x="1913.9"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_8_">
+				<feFlood
+   id="feFlood6488"
+   result="back" />
+				<feBlend
+   id="feBlend6490"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6514"
+   height="30.1"
+   width="362.2"
+   y="266.8"
+   x="1913.9"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_8_)"
+   id="g6512">
+				<defs
+   id="defs6500">
+					<filter
+   height="30.1"
+   width="362.20001"
+   y="266.79999"
+   x="1913.9"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_9_">
+						<feFlood
+   id="feFlood6495"
+   result="back" />
+						<feBlend
+   id="feBlend6497"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_28_"
+   height="30.1"
+   width="362.2"
+   y="266.8"
+   x="1913.9"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_9_)"
+   id="g6502">
+					</g>
+				</mask>
+				
+					<radialGradient
    gradientUnits="userSpaceOnUse"
-   id="SVGID_65_">
+   gradientTransform="matrix(1.3838,0,0,1.258,-707.8722,-232.2806)"
+   r="490.4353"
+   cy="-66.841202"
+   cx="2031.1237"
+   id="SVGID_29_">
+					<stop
+   id="stop6505"
+   style="stop-color:#000000"
+   offset="0.9152" />
+					<stop
+   id="stop6507"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+				</radialGradient>
+				<path
+   style="fill:url(#SVGID_29_)"
+   inkscape:connector-curvature="0"
+   id="path6510"
+   d="m 2172.8,289.3 c 0,0 216.4,-10.1 22.6,-16.8 0,0 -115,-13.5 -169.3,1.3 0,0 -226.3,10.8 -36.2,16.1 0,0 33.5,10.8 84.2,2 0,0.1 49.8,12.8 98.7,-2.6 z"
+   mask="url(#SVGID_28_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="407.24011"
+   x2="2094.9966"
+   y1="23.3664"
+   x1="2094.9966"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_30_">
 			<stop
-   id="stop7147"
-   style="stop-color:#915826"
-   offset="0" />
+   id="stop6516"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
 			<stop
-   id="stop7149"
-   style="stop-color:#B96D43"
-   offset="0.4948" />
-			<stop
-   id="stop7151"
-   style="stop-color:#C8986A"
+   id="stop6518"
+   style="stop-color:#78C4D7"
    offset="1" />
 		</linearGradient>
 		<path
    inkscape:connector-curvature="0"
-   style="opacity:0.4;fill:url(#SVGID_65_)"
-   id="path7154"
-   d="m 4040.1,678.1 c -14.7,-0.2 -29.3,-0.4 -44,-0.6 -146.4,-2 -292.6,-4.7 -439.2,-5.6 -71.4,-0.4 -142.8,-0.7 -214.2,-0.5 -57.1,0.2 -115.2,0.4 -170.3,-4.4 -3.9,-0.3 -5.5,-2.1 -1.2,-2.6 162.6,-21 353.1,-20.1 527.9,-24 106,-2.4 211.8,-4.1 318,-5.6 7.6,-0.1 15.2,-0.2 22.8,-0.3 0,-9.5 0,-19.2 0,-28.9 -25.7,0.3 -51.3,0.6 -76.9,1 -166,2.2 -331.4,7.5 -495.3,15.1 -156.1,7.3 -307.3,19 -460.9,29.4 -76.8,5.2 -154.2,9.8 -232.5,12.7 -63.2,2.3 -127.1,2.9 -190.7,3.9 -134.3,2.1 -276,4.3 -399,21.1 61.2,16.9 173.1,16.1 252,15.9 108.9,-0.2 217.5,0.4 326.4,0.3 165.2,-0.1 330.4,-1.7 495.6,-2.9 166.8,-1.2 333.6,-1 500.4,0.3 93.7,0.7 187.6,1.6 281.3,3.2 -0.1,-8.6 -0.1,-17.9 -0.2,-27.5 z" />
-		<linearGradient
-   y2="444.625"
-   x2="1050.5118"
-   y1="917.44812"
-   x1="1050.5118"
+   style="fill:url(#SVGID_30_)"
+   id="path6521"
+   d="m 2172.8,289.3 c 0,0 216.4,-10.1 22.6,-16.8 0,0 -115,-13.5 -169.3,1.3 0,0 -226.3,10.8 -36.2,16.1 0,0 33.5,10.8 84.2,2 0,0.1 49.8,12.8 98.7,-2.6 z" />
+		<defs
+   id="defs6528">
+			<filter
+   height="53.299999"
+   width="756"
+   y="23.700001"
+   x="1540.2"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_10_">
+				<feFlood
+   id="feFlood6523"
+   result="back" />
+				<feBlend
+   id="feBlend6525"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6549"
+   height="53.3"
+   width="756"
+   y="23.7"
+   x="1540.2"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_10_)"
+   id="g6547">
+				<defs
+   id="defs6535">
+					<filter
+   height="53.299999"
+   width="756"
+   y="23.700001"
+   x="1540.2"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_11_">
+						<feFlood
+   id="feFlood6530"
+   result="back" />
+						<feBlend
+   id="feBlend6532"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_31_"
+   height="53.3"
+   width="756"
+   y="23.7"
+   x="1540.2"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_11_)"
+   id="g6537">
+					</g>
+				</mask>
+				<linearGradient
+   y2="77.706902"
+   x2="1918.229"
+   y1="22.768499"
+   x1="1918.229"
    gradientUnits="userSpaceOnUse"
-   id="SVGID_66_">
+   id="SVGID_32_">
+					<stop
+   id="stop6540"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6542"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_32_)"
+   inkscape:connector-curvature="0"
+   id="path6545"
+   d="m 2080.7,63.5 c 0,0 451.7,-17.9 47.2,-29.8 0,0 -240,-23.9 -353.4,2.4 0,0 -472.5,19.1 -75.6,28.6 0,0 69.9,19.1 175.7,3.6 0.1,0 104.1,22.6 206.1,-4.8 z"
+   mask="url(#SVGID_31_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="418.61951"
+   x2="1918.229"
+   y1="-64.118797"
+   x1="1918.229"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_33_">
 			<stop
-   id="stop7156"
-   style="stop-color:#915826"
-   offset="0" />
+   id="stop6551"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
 			<stop
-   id="stop7158"
-   style="stop-color:#B96D43"
-   offset="0.4948" />
-			<stop
-   id="stop7160"
-   style="stop-color:#C8986A"
+   id="stop6553"
+   style="stop-color:#78C4D7"
    offset="1" />
 		</linearGradient>
 		<path
    inkscape:connector-curvature="0"
-   style="opacity:0.4;fill:url(#SVGID_66_)"
-   id="path7163"
-   d="m 1850.5,730.5 c -94.1,-3.8 -189,-4.9 -283.8,-6.3 -148.7,-2.3 -297.5,-4.6 -446.3,-6.9 -165,-2.6 -328.7,-7.9 -493.2,-12 -165.3,-4 -330.8,-7.2 -496.4,-10 -43.3,-0.7 -86.8,-1.2 -130.1,-2 0,2.6 0,5.2 0,7.7 0,3.4 0,6.8 0.1,10.2 41.6,0.8 83.3,1.3 124.9,1.7 147.8,1.6 294.4,4.4 441.7,8.1 133,3.3 267.3,7.9 400.9,7.6 50.8,-0.1 102.1,-0.4 152.5,1.5 39.4,1.5 80.9,3.9 111.6,11.5 2.4,0.6 1.7,1.8 -1.1,2.2 -52,7.5 -110.2,10.2 -167.9,11.4 -66.1,1.4 -132.1,2.7 -198.2,4.3 -145,3.6 -290.6,5.5 -435.4,9.5 -142.8,3.9 -285.8,10.2 -429,14.5 0,4 0,7.9 0,11.9 h 1043.9 c 53.1,-2.4 106.1,-4.8 159.1,-7 157.7,-6.8 316,-13 474.2,-19 78.2,-2.9 156.6,-5.6 235.3,-7.5 60.3,-1.5 132.5,0.4 187.3,-7.9 -73.4,-14.1 -163.6,-20 -250.1,-23.5 z" />
-		<linearGradient
-   y2="444.64301"
-   x2="3275.0044"
-   y1="917.44067"
-   x1="3275.0044"
+   style="opacity:0.3;fill:url(#SVGID_33_)"
+   id="path6556"
+   d="m 2080.7,63.5 c 0,0 451.7,-17.9 47.2,-29.8 0,0 -240,-23.9 -353.4,2.4 0,0 -472.5,19.1 -75.6,28.6 0,0 69.9,19.1 175.7,3.6 0.1,0 104.1,22.6 206.1,-4.8 z" />
+		<defs
+   id="defs6563">
+			<filter
+   height="44"
+   width="433.5"
+   y="134.10001"
+   x="1263.7"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_12_">
+				<feFlood
+   id="feFlood6558"
+   result="back" />
+				<feBlend
+   id="feBlend6560"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6584"
+   height="44"
+   width="433.5"
+   y="134.1"
+   x="1263.7"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_12_)"
+   id="g6582">
+				<defs
+   id="defs6570">
+					<filter
+   height="44"
+   width="433.5"
+   y="134.10001"
+   x="1263.7"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_13_">
+						<feFlood
+   id="feFlood6565"
+   result="back" />
+						<feBlend
+   id="feBlend6567"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_34_"
+   height="44"
+   width="433.5"
+   y="134.1"
+   x="1263.7"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_13_)"
+   id="g6572">
+					</g>
+				</mask>
+				<linearGradient
+   y2="178.6373"
+   x2="1480.495"
+   y1="133.2757"
+   x1="1480.495"
    gradientUnits="userSpaceOnUse"
-   id="SVGID_67_">
+   id="SVGID_35_">
+					<stop
+   id="stop6575"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6577"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_35_)"
+   inkscape:connector-curvature="0"
+   id="path6580"
+   d="m 1573.7,166.9 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.2,-0.1 59.4,18.7 118,-4 z"
+   mask="url(#SVGID_34_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="234.5235"
+   x2="1480.495"
+   y1="-164.0647"
+   x1="1480.495"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_36_">
 			<stop
-   id="stop7165"
-   style="stop-color:#915826"
-   offset="0" />
+   id="stop6586"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
 			<stop
-   id="stop7167"
-   style="stop-color:#B96D43"
-   offset="0.4948" />
-			<stop
-   id="stop7169"
-   style="stop-color:#C8986A"
+   id="stop6588"
+   style="stop-color:#78C4D7"
    offset="1" />
 		</linearGradient>
 		<path
    inkscape:connector-curvature="0"
-   style="opacity:0.4;fill:url(#SVGID_67_)"
-   id="path7172"
-   d="m 4050.3,779.1 c -2.8,0 -5.6,0 -8.3,0 -0.5,0 -1,-14.4 -1.3,-37.5 -95.6,1.1 -191.3,1.8 -287,2.5 -324.2,2.5 -651.5,5.3 -968.8,26.1 -73.2,4.8 -144.9,10.5 -215.5,17.8 -23.5,2.4 -46.9,5 -70.3,7.5 h 1551.7 c -0.2,-2.9 -0.3,-8.6 -0.5,-16.4 z" />
+   style="fill:url(#SVGID_36_)"
+   id="path6591"
+   d="m 1573.7,166.9 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.2,-0.1 59.4,18.7 118,-4 z" />
+		<defs
+   id="defs6598">
+			<filter
+   height="44"
+   width="433.5"
+   y="247.2"
+   x="751.20001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_14_">
+				<feFlood
+   id="feFlood6593"
+   result="back" />
+				<feBlend
+   id="feBlend6595"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6619"
+   height="44"
+   width="433.5"
+   y="247.2"
+   x="751.2"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_14_)"
+   id="g6617">
+				<defs
+   id="defs6605">
+					<filter
+   height="44"
+   width="433.5"
+   y="247.2"
+   x="751.20001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_15_">
+						<feFlood
+   id="feFlood6600"
+   result="back" />
+						<feBlend
+   id="feBlend6602"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_37_"
+   height="44"
+   width="433.5"
+   y="247.2"
+   x="751.2"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_15_)"
+   id="g6607">
+					</g>
+				</mask>
+				<linearGradient
+   y2="291.78439"
+   x2="967.9187"
+   y1="246.4227"
+   x1="967.9187"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_38_">
+					<stop
+   id="stop6610"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6612"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_38_)"
+   inkscape:connector-curvature="0"
+   id="path6615"
+   d="m 1061.1,280 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.1,0 59.5,18.7 118,-4 z"
+   mask="url(#SVGID_37_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="347.6705"
+   x2="967.9187"
+   y1="-50.917599"
+   x1="967.9187"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_39_">
+			<stop
+   id="stop6621"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6623"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="fill:url(#SVGID_39_)"
+   id="path6626"
+   d="m 1061.1,280 c 0,0 259,-14.8 27.1,-24.6 0,0 -137.6,-19.7 -202.6,2 0,0 -270.9,15.8 -43.3,23.6 0,0 40.1,15.8 100.8,3 -0.1,0 59.5,18.7 118,-4 z" />
+		<defs
+   id="defs6633">
+			<filter
+   height="53.299999"
+   width="756"
+   y="75.400002"
+   x="589.90002"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_16_">
+				<feFlood
+   id="feFlood6628"
+   result="back" />
+				<feBlend
+   id="feBlend6630"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6654"
+   height="53.3"
+   width="756"
+   y="75.4"
+   x="589.9"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_16_)"
+   id="g6652">
+				<defs
+   id="defs6640">
+					<filter
+   height="53.299999"
+   width="756"
+   y="75.400002"
+   x="589.90002"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_17_">
+						<feFlood
+   id="feFlood6635"
+   result="back" />
+						<feBlend
+   id="feBlend6637"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_40_"
+   height="53.3"
+   width="756"
+   y="75.4"
+   x="589.9"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_17_)"
+   id="g6642">
+					</g>
+				</mask>
+				<linearGradient
+   y2="129.3927"
+   x2="967.9187"
+   y1="74.454201"
+   x1="967.9187"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_41_">
+					<stop
+   id="stop6645"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6647"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_41_)"
+   inkscape:connector-curvature="0"
+   id="path6650"
+   d="m 1130.4,115.2 c 0,0 451.7,-17.9 47.2,-29.8 0,0 -240,-23.9 -353.4,2.4 0,0 -472.5,19.1 -75.6,28.6 0,0 69.9,19.1 175.7,3.6 0.1,-0.1 104,22.6 206.1,-4.8 z"
+   mask="url(#SVGID_40_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="470.30521"
+   x2="967.9187"
+   y1="-12.433"
+   x1="967.9187"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_42_">
+			<stop
+   id="stop6656"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6658"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="opacity:0.3;fill:url(#SVGID_42_)"
+   id="path6661"
+   d="m 1130.4,115.2 c 0,0 451.7,-17.9 47.2,-29.8 0,0 -240,-23.9 -353.4,2.4 0,0 -472.5,19.1 -75.6,28.6 0,0 69.9,19.1 175.7,3.6 0.1,-0.1 104,22.6 206.1,-4.8 z" />
+		<defs
+   id="defs6668">
+			<filter
+   height="53.299999"
+   width="756"
+   y="129.39999"
+   x="2884.2"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_18_">
+				<feFlood
+   id="feFlood6663"
+   result="back" />
+				<feBlend
+   id="feBlend6665"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6689"
+   height="53.3"
+   width="756"
+   y="129.4"
+   x="2884.2"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_18_)"
+   id="g6687">
+				<defs
+   id="defs6675">
+					<filter
+   height="53.299999"
+   width="756"
+   y="129.39999"
+   x="2884.2"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_19_">
+						<feFlood
+   id="feFlood6670"
+   result="back" />
+						<feBlend
+   id="feBlend6672"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_43_"
+   height="53.3"
+   width="756"
+   y="129.4"
+   x="2884.2"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_19_)"
+   id="g6677">
+					</g>
+				</mask>
+				<linearGradient
+   y2="183.3989"
+   x2="3262.2102"
+   y1="128.46049"
+   x1="3262.2102"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_44_">
+					<stop
+   id="stop6680"
+   style="stop-color:#000000"
+   offset="0.1001" />
+					<stop
+   id="stop6682"
+   style="stop-color:#FFFFFF"
+   offset="0.8466" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_44_)"
+   inkscape:connector-curvature="0"
+   id="path6685"
+   d="m 3424.7,169.2 c 0,0 451.7,-17.9 47.2,-29.8 0,0 -240,-23.9 -353.4,2.4 0,0 -472.5,19.1 -75.6,28.6 0,0 69.9,19.1 175.7,3.6 0.1,0 104,22.6 206.1,-4.8 z"
+   mask="url(#SVGID_43_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="524.31152"
+   x2="3262.2102"
+   y1="41.5732"
+   x1="3262.2102"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_45_">
+			<stop
+   id="stop6691"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6693"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="opacity:0.3;fill:url(#SVGID_45_)"
+   id="path6696"
+   d="m 3424.7,169.2 c 0,0 451.7,-17.9 47.2,-29.8 0,0 -240,-23.9 -353.4,2.4 0,0 -472.5,19.1 -75.6,28.6 0,0 69.9,19.1 175.7,3.6 0.1,0 104,22.6 206.1,-4.8 z" />
+		<defs
+   id="defs6703">
+			<filter
+   height="33.799999"
+   width="343.60001"
+   y="235.3"
+   x="2526"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_20_">
+				<feFlood
+   id="feFlood6698"
+   result="back" />
+				<feBlend
+   id="feBlend6700"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6724"
+   height="33.8"
+   width="343.6"
+   y="235.3"
+   x="2526"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_20_)"
+   id="g6722">
+				<defs
+   id="defs6710">
+					<filter
+   height="33.799999"
+   width="343.60001"
+   y="235.3"
+   x="2526"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_21_">
+						<feFlood
+   id="feFlood6705"
+   result="back" />
+						<feBlend
+   id="feBlend6707"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_46_"
+   height="33.8"
+   width="343.6"
+   y="235.3"
+   x="2526"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_21_)"
+   id="g6712">
+					</g>
+				</mask>
+				
+					<radialGradient
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3838,0,0,1.258,-707.8722,-232.2806)"
+   r="434.15619"
+   cy="-35.290901"
+   cx="2430.376"
+   id="SVGID_47_">
+					<stop
+   id="stop6715"
+   style="stop-color:#000000"
+   offset="0.9152" />
+					<stop
+   id="stop6717"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+				</radialGradient>
+				<path
+   style="fill:url(#SVGID_47_)"
+   inkscape:connector-curvature="0"
+   id="path6720"
+   d="m 2609.7,249.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 -0.1,0 -162.2,-0.6 16.1,-16.6 z"
+   mask="url(#SVGID_46_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="414.78781"
+   x2="2697.8506"
+   y1="49.1642"
+   x1="2697.8506"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_48_">
+			<stop
+   id="stop6726"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6728"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="opacity:0.5;fill:url(#SVGID_48_)"
+   id="path6731"
+   d="m 2609.7,249.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 -0.1,0 -162.2,-0.6 16.1,-16.6 z" />
+		<defs
+   id="defs6738">
+			<filter
+   height="33.799999"
+   width="343.60001"
+   y="235.3"
+   x="3536.6001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_22_">
+				<feFlood
+   id="feFlood6733"
+   result="back" />
+				<feBlend
+   id="feBlend6735"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6759"
+   height="33.8"
+   width="343.6"
+   y="235.3"
+   x="3536.6"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_22_)"
+   id="g6757">
+				<defs
+   id="defs6745">
+					<filter
+   height="33.799999"
+   width="343.60001"
+   y="235.3"
+   x="3536.6001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_23_">
+						<feFlood
+   id="feFlood6740"
+   result="back" />
+						<feBlend
+   id="feBlend6742"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_49_"
+   height="33.8"
+   width="343.6"
+   y="235.3"
+   x="3536.6"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_23_)"
+   id="g6747">
+					</g>
+				</mask>
+				
+					<radialGradient
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3838,0,0,1.258,-707.8722,-232.2806)"
+   r="434.15619"
+   cy="-35.290901"
+   cx="3160.655"
+   id="SVGID_50_">
+					<stop
+   id="stop6750"
+   style="stop-color:#000000"
+   offset="0.9152" />
+					<stop
+   id="stop6752"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+				</radialGradient>
+				<path
+   style="fill:url(#SVGID_50_)"
+   inkscape:connector-curvature="0"
+   id="path6755"
+   d="m 3620.2,249.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,0 -162.1,-0.6 16.1,-16.6 z"
+   mask="url(#SVGID_49_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="414.78781"
+   x2="3708.4106"
+   y1="49.1642"
+   x1="3708.4106"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_51_">
+			<stop
+   id="stop6761"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6763"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="opacity:0.5;fill:url(#SVGID_51_)"
+   id="path6766"
+   d="m 3620.2,249.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,0 -162.1,-0.6 16.1,-16.6 z" />
+		<defs
+   id="defs6773">
+			<filter
+   height="33.799999"
+   width="343.60001"
+   y="115.3"
+   x="2364.8999"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_24_">
+				<feFlood
+   id="feFlood6768"
+   result="back" />
+				<feBlend
+   id="feBlend6770"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6794"
+   height="33.8"
+   width="343.6"
+   y="115.3"
+   x="2364.9"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_24_)"
+   id="g6792">
+				<defs
+   id="defs6780">
+					<filter
+   height="33.799999"
+   width="343.60001"
+   y="115.3"
+   x="2364.8999"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_25_">
+						<feFlood
+   id="feFlood6775"
+   result="back" />
+						<feBlend
+   id="feBlend6777"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_52_"
+   height="33.8"
+   width="343.6"
+   y="115.3"
+   x="2364.9"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_25_)"
+   id="g6782">
+					</g>
+				</mask>
+				
+					<radialGradient
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3838,0,0,1.258,-707.8722,-232.2806)"
+   r="434.15619"
+   cy="-130.7146"
+   cx="2313.927"
+   id="SVGID_53_">
+					<stop
+   id="stop6785"
+   style="stop-color:#000000"
+   offset="0.9152" />
+					<stop
+   id="stop6787"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+				</radialGradient>
+				<path
+   style="fill:url(#SVGID_53_)"
+   inkscape:connector-curvature="0"
+   id="path6790"
+   d="m 2448.5,129.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,0 -162.1,-0.7 16.1,-16.6 z"
+   mask="url(#SVGID_52_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="294.74469"
+   x2="2536.7085"
+   y1="-70.878799"
+   x1="2536.7085"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_54_">
+			<stop
+   id="stop6796"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6798"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="opacity:0.5;fill:url(#SVGID_54_)"
+   id="path6801"
+   d="m 2448.5,129.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,0 -162.1,-0.7 16.1,-16.6 z" />
+		<defs
+   id="defs6808">
+			<filter
+   height="33.799999"
+   width="343.60001"
+   y="230.3"
+   x="67.699997"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_26_">
+				<feFlood
+   id="feFlood6803"
+   result="back" />
+				<feBlend
+   id="feBlend6805"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6829"
+   height="33.8"
+   width="343.6"
+   y="230.3"
+   x="67.7"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_26_)"
+   id="g6827">
+				<defs
+   id="defs6815">
+					<filter
+   height="33.799999"
+   width="343.60001"
+   y="230.3"
+   x="67.699997"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_27_">
+						<feFlood
+   id="feFlood6810"
+   result="back" />
+						<feBlend
+   id="feBlend6812"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_55_"
+   height="33.8"
+   width="343.6"
+   y="230.3"
+   x="67.7"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_27_)"
+   id="g6817">
+					</g>
+				</mask>
+				
+					<radialGradient
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3838,0,0,1.258,-707.8722,-232.2806)"
+   r="434.15619"
+   cy="-39.3092"
+   cx="653.84637"
+   id="SVGID_56_">
+					<stop
+   id="stop6820"
+   style="stop-color:#000000"
+   offset="0.9152" />
+					<stop
+   id="stop6822"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+				</radialGradient>
+				<path
+   style="fill:url(#SVGID_56_)"
+   inkscape:connector-curvature="0"
+   id="path6825"
+   d="m 151.3,244.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,-0.1 -162.2,-0.7 16.1,-16.6 z"
+   mask="url(#SVGID_55_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="409.7327"
+   x2="239.48891"
+   y1="44.1092"
+   x1="239.48891"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_57_">
+			<stop
+   id="stop6831"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6833"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="opacity:0.5;fill:url(#SVGID_57_)"
+   id="path6836"
+   d="m 151.3,244.7 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,-0.1 -162.2,-0.7 16.1,-16.6 z" />
+		<defs
+   id="defs6843">
+			<filter
+   height="33.799999"
+   width="343.60001"
+   y="298.60001"
+   x="3570.6001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_28_">
+				<feFlood
+   id="feFlood6838"
+   result="back" />
+				<feBlend
+   id="feBlend6840"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+			</filter>
+		</defs>
+		<mask
+   id="mask6864"
+   height="33.8"
+   width="343.6"
+   y="298.6"
+   x="3570.6"
+   maskUnits="userSpaceOnUse">
+			<g
+   style="filter:url(#Adobe_OpacityMaskFilter_28_)"
+   id="g6862">
+				<defs
+   id="defs6850">
+					<filter
+   height="33.799999"
+   width="343.60001"
+   y="298.60001"
+   x="3570.6001"
+   filterUnits="userSpaceOnUse"
+   id="Adobe_OpacityMaskFilter_29_">
+						<feFlood
+   id="feFlood6845"
+   result="back" />
+						<feBlend
+   id="feBlend6847"
+   mode="normal"
+   in2="back"
+   in="SourceGraphic" />
+					</filter>
+				</defs>
+				<mask
+   id="SVGID_58_"
+   height="33.8"
+   width="343.6"
+   y="298.6"
+   x="3570.6"
+   maskUnits="userSpaceOnUse">
+					<g
+   style="filter:url(#Adobe_OpacityMaskFilter_29_)"
+   id="g6852">
+					</g>
+				</mask>
+				
+					<radialGradient
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.3838,0,0,1.258,-707.8722,-232.2806)"
+   r="434.15619"
+   cy="14.9879"
+   cx="3185.2205"
+   id="SVGID_59_">
+					<stop
+   id="stop6855"
+   style="stop-color:#000000"
+   offset="0.9152" />
+					<stop
+   id="stop6857"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+				</radialGradient>
+				<path
+   style="fill:url(#SVGID_59_)"
+   inkscape:connector-curvature="0"
+   id="path6860"
+   d="m 3654.2,313 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,0 -162.1,-0.7 16.1,-16.6 z"
+   mask="url(#SVGID_58_)" />
+			</g>
+		</mask>
+		<linearGradient
+   y2="478.03851"
+   x2="3742.4043"
+   y1="112.4149"
+   x1="3742.4043"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_60_">
+			<stop
+   id="stop6866"
+   style="stop-color:#FFFFFF"
+   offset="4.760260e-02" />
+			<stop
+   id="stop6868"
+   style="stop-color:#78C4D7"
+   offset="1" />
+		</linearGradient>
+		<path
+   inkscape:connector-curvature="0"
+   style="opacity:0.5;fill:url(#SVGID_60_)"
+   id="path6871"
+   d="m 3654.2,313 c 0,0 50.5,-28.1 125.6,-5.7 0,0 256.9,7.7 60.4,19.8 0,0 -63.2,10.8 -121.4,1.9 0,0 -51.9,7 -80.7,0.6 0,0 -162.1,-0.7 16.1,-16.6 z" />
 	</g><rect
    style="fill:none"
    y="0"
