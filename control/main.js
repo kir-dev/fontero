@@ -53,9 +53,9 @@ function parse(str) {
                 Player.canMove = true;
                 break;
         }
-        const regex = /(while|for)/g
+        const regex = /(while|for|eval)/g
         if (regex.exec(str)) {
-            console.log('A kódban nem lehet ciklus!');
+            console.log('A kódban nem lehet ciklus és `eval`!');
             clearInterval(loop);
         } else {
             eval(str);
