@@ -2,4 +2,8 @@
 
 A [Ruby warrior](https://www.bloc.io/ruby-warrior#/) like game written in Javascript.
 
-To play run python server with `python server.py` command, then go `localhost/index.html`.
+How to play:
+- `npm install`
+- `python3 -m http.server`
+- go to `localhost/index.html`
+- Enjoy!
