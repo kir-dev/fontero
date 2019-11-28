@@ -1,184 +1,183 @@
-var loop;
-var level;
-var viktoria;
-var skin;
+var loop
+var level
+var viktoria
+var skin
 
 function parse(str) {
-    restart();
-    var i = 0;
+  restart()
+  var i = 0
 
+  loop = setInterval(function() {
+    Player.canPerformAction = true
 
-    loop = setInterval(function () {
-        Player.canPerformAction = true;
+    i++
+    console.log('ROUND ' + i + ' ------------------')
 
+    check()
 
-        i++;
-        console.log("ROUND " + i + " ------------------");
+    var element = Player.checkNextField(Map.map)
 
-        check();
-
-        var element = Player.checkNextField(Map.map);
-
-        switch (element.name) {
-            case 'r':
-                if (Player.health < 100) {
-                    Player.health += 20;
-                }
-                Player.canMove = true;
-                var audio = new Audio('assets/sounds/coin.mp3');
-                audio.play();
-                Map.map.splice(Map.map.indexOf(element), 1);
-                break;
-            case 'e':
-                Player.canMove = false;
-                element.attack();
-                break;
-            case 'c':
-                Player.canMove = false;
-
-                break;
-            case 's':
-                Player.canMove = true;
-                if (Player.health < 100) {
-                    Player.health += 20;
-                }
-                break;
-            case 'g':
-                viktoria = true;
-                break;
-            default:
-                if (Player.health < 100) {
-                    Player.health += 20;
-                }
-                Player.canMove = true;
-                break;
+    switch (element.name) {
+      case 'r':
+        if (Player.health < 100) {
+          Player.health += 20
         }
-        const regex = /(while|for)/g
-        if (regex.exec(str)) {
-            console.log('A kódban nem lehet ciklus!');
-            clearInterval(loop);
-        } else {
-            eval(str);
+        Player.canMove = true
+        var audio = new Audio('assets/sounds/coin.mp3')
+        audio.play()
+        Map.map.splice(Map.map.indexOf(element), 1)
+        break
+      case 'e':
+        Player.canMove = false
+        element.attack()
+        break
+      case 'c':
+        Player.canMove = false
+
+        break
+      case 's':
+        Player.canMove = true
+        if (Player.health < 100) {
+          Player.health += 20
         }
-
-        if (i > 25) {
-            clearInterval(loop);
+        break
+      case 'g':
+        viktoria = true
+        break
+      default:
+        if (Player.health < 100) {
+          Player.health += 20
         }
+        Player.canMove = true
+        break
+    }
+    const regex = /(while|for)/g
+    if (regex.exec(str)) {
+      console.log('A kódban nem lehet ciklus!')
+      clearInterval(loop)
+    } else {
+      eval(str)
+    }
 
-    }, 500);
-
+    if (i > 25) {
+      clearInterval(loop)
+    }
+  }, 500)
 }
 
 function check() {
-    if (viktoria) {
-        var win = true;
-        Map.map.forEach(function (element) {
-            if (element.name == 'r' || element.name == 'c') {
-                win = false;
-            }
-        });
-        if (win) {
-            clearInterval(loop);
-            level++;
-            if (Math.random() > 0.5) {
-                var audio = new Audio('assets/sounds/ugyi.mp3');
-            } else {
-                var audio = new Audio('assets/sounds/jovagy.mp3');
-            }
-            audio.play();
+  if (viktoria) {
+    var win = true
+    Map.map.forEach(function(element) {
+      if (element.name === 'r' || element.name === 'c') {
+        win = false
+      }
+    })
+    if (win) {
+      clearInterval(loop)
+      level++
+      if (Math.random() > 0.5) {
+        var audio = new Audio('assets/sounds/ugyi.mp3')
+      } else {
+        var audio = new Audio('assets/sounds/jovagy.mp3')
+      }
+      audio.play()
 
-            $('#console-log-text').text('');
-            console.log("Nyertél!");
-            Player.health = 100;
-            Map.map.splice(0, Map.map.length);
-            loadMap(level);
-        } else {
-            console.log('Vedd fel az összes coint!');
-        }
+      $('#console-log-text').text('')
+      console.log('Nyertél!')
+      Player.health = 100
+      Map.map.splice(0, Map.map.length)
+      loadMap(skin)
+    } else {
+      console.log('Vedd fel az összes coint!')
     }
-    if (Player.health <= 0) {
-        restart();
-        console.log("Defeat!");
-        var audio = new Audio('assets/sounds/fatality.mp3');
-        audio.play();
-    }
+  }
+  if (Player.health <= 0) {
+    restart()
+    console.log('Defeat!')
+    var audio = new Audio('assets/sounds/fatality.mp3')
+    audio.play()
+  }
 }
 
 function restart() {
-    clearInterval(loop);
-    $('#console-log-text').text('');
-    Map.map.splice(0, Map.map.length);
-    loadMap(skin);
+  clearInterval(loop)
+  $('#console-log-text').text('')
+  Map.map.splice(0, Map.map.length)
+  loadMap(skin)
 }
 
 function loadMap(skin) {
-    $.when(
-        $.get("assets/levels/" + level + "/hint.txt")
-    ).then(function (response) {
-        $('#hint').html(response);
-    });
-    $.when(
-        $.get("assets/levels/" + level + "/level.txt")
-    ).then(function (response) {
-        viktoria = false;
-        Player.constructor();
-        Display.setPlayer = Player;
-        Map.parseLevel(response);
-        Display.initMap(skin, Map.map);
-    });
+  $.when($.get('assets/levels/' + level + '/hint.txt')).then(function(
+    response
+  ) {
+    $('#hint').html(response)
+  })
+  $.when($.get('assets/levels/' + level + '/level.txt')).then(function(
+    response
+  ) {
+    viktoria = false
+    Player.constructor()
+    Display.setPlayer = Player
+    Map.parseLevel(response)
+    Display.initMap(skin, Map.map)
+  })
 }
 
 function changeLevel() {
-    var levelPopup = prompt("Enter level", "");
+  var levelPopup = prompt('Enter level', '')
 
-    if (levelPopup != null && level != levelPopup) {
-        $.get("assets/levels/" + levelPopup + "/level.txt", function () {
-                window.history.pushState(null, null, '?level=' + levelPopup + '&skin=' + getParameterByName('skin'));
-                level = levelPopup;
-                restart();
-            })
-            .fail(function () {
-                alert("There is no level: " + levelPopup);
-            })
-    }
+  if (levelPopup !== null && level !== levelPopup) {
+    $.get('assets/levels/' + levelPopup + '/level.txt', function() {
+      window.history.pushState(
+        null,
+        null,
+        '?level=' + levelPopup + '&skin=' + getParameterByName('skin')
+      )
+      level = levelPopup
+      restart()
+    }).fail(function() {
+      alert('There is no level: ' + levelPopup)
+    })
+  }
 }
 
 function showPopup() {
-    $.when(
-        $.get("assets/levels/" + level + "/popup.txt")
-    ).then(function (response) {
-        $('#hint-text').html(response);
-    });
+  $.when($.get('assets/levels/' + level + '/popup.txt')).then(function(
+    response
+  ) {
+    $('#hint-text').html(response)
+  })
 }
 
-$(function () {
-    level = getParameterByName('level');
-    skin = getParameterByName('skin');
-    loadMap(skin);
-});
+$(function() {
+  level = getParameterByName('level')
+  skin = getParameterByName('skin')
+  loadMap(skin)
+})
 
 function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  if (!url) url = window.location.href
+  name = name.replace(/[\[\]]/g, '\\$&')
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+    results = regex.exec(url)
+  if (!results) return null
+  if (!results[2]) return ''
+  return decodeURIComponent(results[2].replace(/\+/g, ' '))
 }
 
 var cm = CodeMirror.fromTextArea(code, {
-    mode: "javascript",
-    lineNumbers: true,
-    theme: "solarized light",
-    autofocus: true
-});
+  mode: 'javascript',
+  lineNumbers: true,
+  theme: 'solarized light',
+  autofocus: true
+})
 
-$("[role=presentation]").css("text-align", "initial")
-$(".CodeMirror").addClass("uk-width-2-3 uk-padding-remove uk-margin-remove")
-$('.CodeMirror').keydown(function (e) {
-    if (e.ctrlKey && e.keyCode == 13) {
-        cm.save()
-        parse($('#code').val());
-    }
+$('[role=presentation]').css('text-align', 'initial')
+$('.CodeMirror').addClass('uk-width-2-3 uk-padding-remove uk-margin-remove')
+$('.CodeMirror').keydown(function(e) {
+  if (e.ctrlKey && e.keyCode === 13) {
+    cm.save()
+    parse($('#code').val())
+  }
 })
