@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Fontero</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/uikit.min.js"></script>
 
@@ -14,10 +14,13 @@
     <script src="models/map.js"></script>
     <script src="views/display.js"></script>
 
-    <link rel="stylesheet" href="assets/css/uikit.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="/node_modules/codemirror/lib/codemirror.css">
-    <link rel="stylesheet" href="/node_modules/codemirror/theme/solarized.css">
+    <link rel="stylesheet" href="assets/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="/node_modules/codemirror/lib/codemirror.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/codemirror/theme/solarized.css"
+    />
   </head>
 
   <body class="uk-background">
@@ -31,34 +34,72 @@
           <p class="help" id="hint"></p>
         </div>
 
-        <div class="uk-width-1-1 uk-grid-collapse uk-text-center uk-margin-small-top" uk-grid>
-          <textarea class="uk-width-2-3 uk-padding-remove uk-margin-remove" id="code" hidden></textarea>
+        <div
+          class="uk-width-1-1 uk-grid-collapse uk-text-center uk-margin-small-top"
+          uk-grid
+        >
+          <textarea
+            class="uk-width-2-3 uk-padding-remove uk-margin-remove"
+            id="code"
+            hidden
+          ></textarea>
 
-          <div class="uk-width-expand uk-grid-collapse uk-text-center uk-padding-remove uk-margin-remove" uk-grid>
-            <div class="uk-width-1-1 uk-height-medium uk-padding-remove uk-margin-remove" id="console-log-div"></div>
-            <button onclick="changeLevel()" class="uk-button uk-width-1-2 uk-text-center uk-padding-remove">Level</button>
-            <button onclick="showPopup()" class="uk-button uk-width-1-2 uk-padding-remove" type="button" uk-toggle="target: #modal-hint">Hint</button>
-            <button onclick="restart()" class="uk-width-1-1 uk-button uk-text-center uk-padding-remove">Restart</button>
-            <button onclick="cm.save();parse($('#code').val())" class="uk-button uk-button-danger uk-width-1-1 uk-padding-remove">RUN</button>
-
+          <div
+            class="uk-width-expand uk-grid-collapse uk-text-center uk-padding-remove uk-margin-remove"
+            uk-grid
+          >
+            <div
+              class="uk-width-1-1 uk-height-medium uk-padding-remove uk-margin-remove"
+              id="console-log-div"
+            ></div>
+            <button
+              onclick="changeLevel()"
+              class="uk-button uk-width-1-2 uk-text-center uk-padding-remove"
+            >
+              Level
+            </button>
+            <button
+              onclick="showPopup()"
+              class="uk-button uk-width-1-2 uk-padding-remove"
+              type="button"
+              uk-toggle="target: #modal-hint"
+            >
+              Hint
+            </button>
+            <button
+              onclick="restart()"
+              class="uk-width-1-1 uk-button uk-text-center uk-padding-remove"
+            >
+              Restart
+            </button>
+            <button
+              onclick="cm.save();parse($('#code').val())"
+              class="uk-button uk-button-danger uk-width-1-1 uk-padding-remove"
+            >
+              RUN
+            </button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <script src="assets/js/console.js"></script>
-
-  </div>
-  <script src="node_modules/codemirror/lib/codemirror.js"></script>
-  <script src="node_modules/codemirror/mode/javascript/javascript.js"></script>
-  <script src="control/main.js"></script>
-  <div id="modal-hint" uk-modal>
-    <div class="modal uk-modal-dialog uk-modal-body">
-      <h2 class="uk-modal-title">Hint</h2>
-      <p id="hint-text"></p>
-      <p class="uk-text-right">
-        <button class="uk-button uk-button-default uk-modal-close" type="button">OK</button>
-      </p>
+      <script src="assets/js/console.js"></script>
     </div>
-  </div>
+    <script src="node_modules/codemirror/lib/codemirror.js"></script>
+    <script src="node_modules/codemirror/mode/javascript/javascript.js"></script>
+    <script src="control/main.js"></script>
+    <div id="modal-hint" uk-modal>
+      <div class="modal uk-modal-dialog uk-modal-body">
+        <h2 class="uk-modal-title">Hint</h2>
+        <p id="hint-text"></p>
+        <p class="uk-text-right">
+          <button
+            class="uk-button uk-button-default uk-modal-close"
+            type="button"
+          >
+            OK
+          </button>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
