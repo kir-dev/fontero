@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A [Ruby warrior](https://www.bloc.io/ruby-warrior#/) like game written in Javascript.",
   "dependencies": {
-    "codemirror": "^5.39.0"
+    "codemirror": "^5.58.2"
   },
   "devDependencies": {},
   "scripts": {
