@@ -1,4 +1,4 @@
-var Map = (function() {
+var Map = (function () {
   var module = {}
   var map = []
   var blocksEnum = {
@@ -9,7 +9,7 @@ var Map = (function() {
     SPACE: 's'
   }
 
-  module.parseLevel = function(contents) {
+  module.parseLevel = function (contents) {
     for (var index = 0; index < contents.length; index++) {
       var char = contents.charAt(index)
       switch (char) {
@@ -47,8 +47,8 @@ var Map = (function() {
     }
   }
 
-  module.attack = function(coord, dmg) {
-    map.forEach(function(element, index) {
+  module.attack = function (coord, dmg) {
+    map.forEach(function (element, index) {
       if (element.x === coord) {
         element.health -= dmg
 

@@ -1,15 +1,15 @@
-var Display = (function() {
+var Display = (function () {
   var module = {}
   var imageCache = {}
   var player = {}
   var skin
   var drawInterval
 
-  module.setPlayer = function(message) {
+  module.setPlayer = function (message) {
     player = message
   }
 
-  module.initMap = function(s, map) {
+  module.initMap = function (s, map) {
     clearInterval(drawInterval)
     drawInterval = undefined
 
@@ -27,9 +27,9 @@ var Display = (function() {
     cacheImage('gate', 'gate')
     cacheImage('chest', 'chest')
 
-    setTimeout(function() {
+    setTimeout(function () {
       if (drawInterval === undefined)
-        drawInterval = setInterval(function() {
+        drawInterval = setInterval(function () {
           draw(map)
         }, 50)
     }, 500)
@@ -51,23 +51,11 @@ var Display = (function() {
     }
     // draw additional image1
     if (x > 0) {
-      context.drawImage(
-        imageCache.bg_cloud,
-        -canvas.width + x,
-        0,
-        canvas.width,
-        canvas.height
-      )
+      context.drawImage(imageCache.bg_cloud, -canvas.width + x, 0, canvas.width, canvas.height)
     }
     // draw additional image2
     if (x - canvas.width > 0) {
-      context.drawImage(
-        imageCache.bg_cloud,
-        -canvas.width * 2 + x,
-        0,
-        canvas.width,
-        canvas.height
-      )
+      context.drawImage(imageCache.bg_cloud, -canvas.width * 2 + x, 0, canvas.width, canvas.height)
     }
     // amount to move
     x += dx
@@ -78,70 +66,28 @@ var Display = (function() {
     for (var i = 1; i <= Player.health / 20; i++) {
       context.drawImage(imageCache.heart, i * 40, 10, 50, 50)
     }
-    context.drawImage(
-      imageCache.bg_secondary,
-      0,
-      0,
-      canvas.width,
-      canvas.height
-    )
+    context.drawImage(imageCache.bg_secondary, 0, 0, canvas.width, canvas.height)
 
-    map.forEach(function(element) {
+    map.forEach(function (element) {
       switch (element.name) {
         case 'p':
           if (element.direction === 'LEFT') {
-            context.drawImage(
-              imageCache.player_left,
-              translateImage(element.getX()),
-              translateImage(1),
-              156,
-              206
-            )
+            context.drawImage(imageCache.player_left, translateImage(element.getX()), translateImage(1), 156, 206)
           } else {
-            context.drawImage(
-              imageCache.player,
-              translateImage(element.getX()),
-              translateImage(1),
-              156,
-              206
-            )
+            context.drawImage(imageCache.player, translateImage(element.getX()), translateImage(1), 156, 206)
           }
           break
         case 'r':
-          context.drawImage(
-            imageCache.ruby,
-            translateImage(element.getX()),
-            translateImage(1.5),
-            64,
-            64
-          )
+          context.drawImage(imageCache.ruby, translateImage(element.getX()), translateImage(1.5), 64, 64)
           break
         case 'e':
-          context.drawImage(
-            imageCache.enemy,
-            translateImage(element.getX()),
-            translateImage(1),
-            206,
-            200
-          )
+          context.drawImage(imageCache.enemy, translateImage(element.getX()), translateImage(1), 206, 200)
           break
         case 'g':
-          context.drawImage(
-            imageCache.gate,
-            translateImage(element.getX()),
-            translateImage(1),
-            206,
-            200
-          )
+          context.drawImage(imageCache.gate, translateImage(element.getX()), translateImage(1), 206, 200)
           break
         case 'c':
-          context.drawImage(
-            imageCache.chest,
-            translateImage(element.getX()),
-            translateImage(1),
-            206,
-            200
-          )
+          context.drawImage(imageCache.chest, translateImage(element.getX()), translateImage(1), 206, 200)
           break
         default:
           break
@@ -158,7 +104,7 @@ var Display = (function() {
   function cacheImage(name, longName) {
     var imageObj = new Image()
     imageObj.src = 'assets/images/' + skin + '/' + longName + '.svg'
-    imageObj.onload = function() {
+    imageObj.onload = function () {
       imageCache[name] = imageObj
     }
   }
