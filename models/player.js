@@ -1,4 +1,4 @@
-var Player = (function() {
+var Player = (function () {
   var module = {}
 
   var x
@@ -10,7 +10,7 @@ var Player = (function() {
 
   module.name = 'p'
 
-  module.constructor = function(x, y, direction, health) {
+  module.constructor = function (x, y, direction, health) {
     this.x = x
     this.y = y
     this.direction = direction
@@ -19,23 +19,23 @@ var Player = (function() {
     this.canPerformAction = true
   }
 
-  module.getX = function() {
+  module.getX = function () {
     return this.x
   }
 
-  module.setDir = function(dir) {
+  module.setDir = function (dir) {
     this.direction = dir
   }
 
-  module.setHealth = function(health) {
+  module.setHealth = function (health) {
     this.health = health
   }
 
-  module.getHealth = function() {
+  module.getHealth = function () {
     return this.health
   }
 
-  module.walk = function() {
+  module.walk = function () {
     if (!this.canPerformAction) {
       console.log('Egy korben csak egy akciot tudsz vegrehajtani!')
       return
@@ -64,7 +64,7 @@ var Player = (function() {
     }
   }
 
-  module.checkNextField = function(map) {
+  module.checkNextField = function (map) {
     var offset = 0
     switch (this.direction) {
       case 'LEFT':
@@ -77,7 +77,7 @@ var Player = (function() {
         break
     }
     var returnValue = 'empty field'
-    map.forEach(function(element) {
+    map.forEach(function (element) {
       if (element.x === Player.getX() + offset) {
         returnValue = element
       }
@@ -86,7 +86,7 @@ var Player = (function() {
     return returnValue
   }
 
-  module.openChest = function() {
+  module.openChest = function () {
     var offset = 0
     switch (this.direction) {
       case 'LEFT':
@@ -102,7 +102,7 @@ var Player = (function() {
     this.checkNextField(Map.map).open()
   }
 
-  module.getNext = function() {
+  module.getNext = function () {
     var offset = 0
     switch (this.direction) {
       case 'LEFT':
@@ -116,7 +116,7 @@ var Player = (function() {
     }
 
     var returnValue = 's'
-    Map.map.forEach(function(element) {
+    Map.map.forEach(function (element) {
       if (element.x === Player.getX() + offset) {
         returnValue = element.name
       }
@@ -124,9 +124,9 @@ var Player = (function() {
     return returnValue
   }
 
-  module.getChestDistance = function() {
+  module.getChestDistance = function () {
     var distance = 0
-    Map.map.forEach(function(element) {
+    Map.map.forEach(function (element) {
       if (element.name === 'c') {
         distance = Player.x - element.x
       }
@@ -137,7 +137,7 @@ var Player = (function() {
     return distance
   }
 
-  module.attack = function() {
+  module.attack = function () {
     if (!this.canPerformAction) {
       console.log('Egy korben csak egy akciot tudsz vegrehajtani!')
       return

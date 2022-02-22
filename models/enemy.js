@@ -1,4 +1,4 @@
-var Enemy = function() {
+var Enemy = function () {
   var module = {}
 
   var x
@@ -8,25 +8,25 @@ var Enemy = function() {
 
   module.name = 'e'
 
-  module.init = function(x, y, dir) {
+  module.init = function (x, y, dir) {
     this.x = x
     this.y = y
     this.direction = dir
   }
 
-  module.getX = function() {
+  module.getX = function () {
     return this.x
   }
 
-  module.setDirection = function(dir) {
+  module.setDirection = function (dir) {
     this.direction = dir
   }
 
-  module.setHealth = function(health) {
+  module.setHealth = function (health) {
     this.health = health
   }
 
-  module.attack = function() {
+  module.attack = function () {
     var audio = new Audio('assets/sounds/rawr.mp3')
     audio.play()
     var coord = this.x

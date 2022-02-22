@@ -52,10 +52,7 @@
   })()
 
   function printToDiv() {
-    var msg = Array.prototype.slice
-      .call(arguments, 0)
-      .map(toString)
-      .join(' ')
+    var msg = Array.prototype.slice.call(arguments, 0).map(toString).join(' ')
     var text = logTo.textContent
     logTo.textContent = text + msg + '\n'
   }
@@ -131,11 +128,7 @@
     printTable(objArr, keys)
   }
 
-  window.addEventListener('error', function(err) {
-    printToDiv(
-      'EXCEPTION:',
-      err.message + '\n  ' + err.filename,
-      err.lineno + ':' + err.colno
-    )
+  window.addEventListener('error', function (err) {
+    printToDiv('EXCEPTION:', err.message + '\n  ' + err.filename, err.lineno + ':' + err.colno)
   })
 })()

@@ -7,7 +7,7 @@ function parse(str) {
   restart()
   var i = 0
 
-  loop = setInterval(function() {
+  loop = setInterval(function () {
     Player.canPerformAction = true
 
     i++
@@ -68,7 +68,7 @@ function parse(str) {
 function check() {
   if (viktoria) {
     var win = true
-    Map.map.forEach(function(element) {
+    Map.map.forEach(function (element) {
       if (element.name === 'r' || element.name === 'c') {
         win = false
       }
@@ -108,14 +108,10 @@ function restart() {
 }
 
 function loadMap(skin) {
-  $.when($.get('assets/levels/' + level + '/hint.txt')).then(function(
-    response
-  ) {
+  $.when($.get('assets/levels/' + level + '/hint.txt')).then(function (response) {
     $('#hint').html(response)
   })
-  $.when($.get('assets/levels/' + level + '/level.txt')).then(function(
-    response
-  ) {
+  $.when($.get('assets/levels/' + level + '/level.txt')).then(function (response) {
     viktoria = false
     Player.constructor()
     Display.setPlayer = Player
@@ -128,29 +124,23 @@ function changeLevel() {
   var levelPopup = prompt('Enter level', '')
 
   if (levelPopup !== null && level !== levelPopup) {
-    $.get('assets/levels/' + levelPopup + '/level.txt', function() {
-      window.history.pushState(
-        null,
-        null,
-        '?level=' + levelPopup + '&skin=' + getParameterByName('skin')
-      )
+    $.get('assets/levels/' + levelPopup + '/level.txt', function () {
+      window.history.pushState(null, null, '?level=' + levelPopup + '&skin=' + getParameterByName('skin'))
       level = levelPopup
       restart()
-    }).fail(function() {
+    }).fail(function () {
       alert('There is no level: ' + levelPopup)
     })
   }
 }
 
 function showPopup() {
-  $.when($.get('assets/levels/' + level + '/popup.txt')).then(function(
-    response
-  ) {
+  $.when($.get('assets/levels/' + level + '/popup.txt')).then(function (response) {
     $('#hint-text').html(response)
   })
 }
 
-$(function() {
+$(function () {
   level = getParameterByName('level')
   skin = getParameterByName('skin')
   loadMap(skin)
@@ -175,7 +165,7 @@ var cm = CodeMirror.fromTextArea(code, {
 
 $('[role=presentation]').css('text-align', 'initial')
 $('.CodeMirror').addClass('uk-width-2-3 uk-padding-remove uk-margin-remove')
-$('.CodeMirror').keydown(function(e) {
+$('.CodeMirror').keydown(function (e) {
   if (e.ctrlKey && e.keyCode === 13) {
     cm.save()
     parse($('#code').val())
